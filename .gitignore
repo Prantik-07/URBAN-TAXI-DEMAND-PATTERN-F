@@ -1,0 +1,28 @@
+# Node & Frontend
+node_modules/
+dist/
+.DS_Store
+
+# Data (Crucial to exclude large Parquet files)
+ml_model_training/data/raw/
+data/raw/
+*.parquet
+
+# Python & Notebooks
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Design Documentation (Keep structure, but usually docs are small)
+# project_docs/ can be kept
+
+# OS
+Thumbs.db
