@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Taxi Demand Dashboard — NYC TLC Analysis</title>
+    <meta name="description" content="Interactive dashboard analysing NYC Yellow and Green taxi demand patterns using TLC trip records (post-COVID 2022–2025).">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="dashboard_data.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-inner">
+        <div class="header-left">
+            <div class="logo-icon">🚕</div>
+            <div>
+                <h1>Urban Taxi Demand Dashboard</h1>
+                <span class="subtitle">NYC TLC Trip Records — Yellow & Green Taxi</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="badge badge-green" id="badge-status">● Real Data</span>
+            <span class="date-range" id="date-range">Loading…</span>
+            <span class="badge badge-purple">Post-COVID</span>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+
+    <!-- KPI Cards -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-icon blue">📊</div>
+            <div class="kpi-label">Total Trips</div>
+            <div class="kpi-value" id="kpi-total">—</div>
+            <div class="kpi-sub" id="kpi-total-sub"></div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon green">📈</div>
+            <div class="kpi-label">Avg Daily Demand</div>
+            <div class="kpi-value" id="kpi-daily">—</div>
+            <div class="kpi-sub">trips / day</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon amber">⏰</div>
+            <div class="kpi-label">Peak Hour</div>
+            <div class="kpi-value" id="kpi-peak">—</div>
+            <div class="kpi-sub" id="kpi-peak-sub"></div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon sky">🛣️</div>
+            <div class="kpi-label">Avg Trip Distance</div>
+            <div class="kpi-value" id="kpi-dist">—</div>
+            <div class="kpi-sub">miles</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon rose">💰</div>
+            <div class="kpi-label">Avg Fare</div>
+            <div class="kpi-value" id="kpi-fare">—</div>
+            <div class="kpi-sub">per trip</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon purple">📍</div>
+            <div class="kpi-label">Top Pickup Zone</div>
+            <div class="kpi-value" id="kpi-zone">—</div>
+            <div class="kpi-sub" id="kpi-zone-sub"></div>
+        </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="chart-grid">
+        <div class="chart-card full-width">
+            <div class="chart-header">
+                <div>
+                    <h3>🕐 Hourly Demand Pattern</h3>
+                    <div class="chart-subtitle">Average trips per hour across all days</div>
+                </div>
+            </div>
+            <div class="chart-wrapper tall"><canvas id="chart-hourly"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <div class="chart-header">
+                <div>
+                    <h3>📆 Monthly Trip Volume</h3>
+                    <div class="chart-subtitle">Total trips per month</div>
+                </div>
+            </div>
+            <div class="chart-wrapper"><canvas id="chart-monthly"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <div>
+                <h3>📍 Top 10 Pickup Zones</h3>
+                <div class="chart-subtitle">Zones ranked by trip count</div>
+            </div>
+            <div class="chart-wrapper"><canvas id="chart-zones"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <div>
+                <h3>📅 Day-of-Week Demand</h3>
+                <div class="chart-subtitle">Average weekly trips by day</div>
+            </div>
+            <div class="chart-wrapper"><canvas id="chart-weekly"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <div>
+                <h3>💰 Monthly Revenue Trend</h3>
+                <div class="chart-subtitle">Total revenue per month</div>
+            </div>
+            <div class="chart-wrapper"><canvas id="chart-revenue"></canvas></div>
+        </div>
+
+        <div class="chart-card full-width">
+            <div class="chart-header">
+                <div>
+                    <h3>📈 Daily Demand Time Series</h3>
+                    <div class="chart-subtitle">Trips per day with 7-day rolling average</div>
+                </div>
+            </div>
+            <div class="chart-wrapper tall"><canvas id="chart-daily"></canvas></div>
+        </div>
+    </div>
+
+    <!-- Stats Table -->
+    <div class="table-card">
+        <h3>📊 Statistical Distribution Summary</h3>
+        <table>
+            <thead>
+                <tr><th>Feature</th><th>Mean</th><th>Median</th><th>Std Dev</th><th>Skewness</th><th>Kurtosis</th><th>Best Fit</th><th>KS p-value</th></tr>
+            </thead>
+            <tbody id="stats-tbody"></tbody>
+        </table>
+    </div>
+
+    <!-- Top Zones Table -->
+    <div class="table-card">
+        <h3>📍 Top 20 Pickup Zones</h3>
+        <table>
+            <thead>
+                <tr><th>Rank</th><th>Zone ID</th><th>Trip Count</th><th>Avg Distance</th><th>Avg Fare</th><th>Total Revenue</th></tr>
+            </thead>
+            <tbody id="zones-tbody"></tbody>
+        </table>
+    </div>
+
+</main>
+
+<footer class="footer">
+    Urban Taxi Demand Pattern Analysis — Shivaansh Pandey & Prantik · Mentor: Navneet Nautiyal<br>
+    Data: <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page" target="_blank">NYC TLC Trip Records</a> · Post-COVID Analysis (2022–2025)
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
