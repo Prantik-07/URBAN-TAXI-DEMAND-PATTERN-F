@@ -1,0 +1,5274 @@
+{
+  "available_months": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02"
+  ],
+  "global": {
+    "zones": [
+      {
+        "id": 237,
+        "trips": 3974682
+      },
+      {
+        "id": 161,
+        "trips": 3920942
+      },
+      {
+        "id": 132,
+        "trips": 3855297
+      },
+      {
+        "id": 236,
+        "trips": 3555798
+      },
+      {
+        "id": 162,
+        "trips": 2866930
+      },
+      {
+        "id": 186,
+        "trips": 2839740
+      },
+      {
+        "id": 230,
+        "trips": 2803257
+      },
+      {
+        "id": 142,
+        "trips": 2286984
+      },
+      {
+        "id": 138,
+        "trips": 2124853
+      },
+      {
+        "id": 170,
+        "trips": 972881
+      }
+    ]
+  },
+  "2024-01": {
+    "kpis": {
+      "total_trips": 2921454,
+      "avg_daily": 94240,
+      "peak_hour": 18,
+      "avg_distance": 3.24,
+      "avg_fare": 18.45,
+      "avg_duration": 14.9
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 2455
+      },
+      {
+        "hour": 1,
+        "avg": 1650
+      },
+      {
+        "hour": 2,
+        "avg": 1143
+      },
+      {
+        "hour": 3,
+        "avg": 752
+      },
+      {
+        "hour": 4,
+        "avg": 502
+      },
+      {
+        "hour": 5,
+        "avg": 573
+      },
+      {
+        "hour": 6,
+        "avg": 1295
+      },
+      {
+        "hour": 7,
+        "avg": 2675
+      },
+      {
+        "hour": 8,
+        "avg": 3744
+      },
+      {
+        "hour": 9,
+        "avg": 4141
+      },
+      {
+        "hour": 10,
+        "avg": 4455
+      },
+      {
+        "hour": 11,
+        "avg": 4823
+      },
+      {
+        "hour": 12,
+        "avg": 5247
+      },
+      {
+        "hour": 13,
+        "avg": 5428
+      },
+      {
+        "hour": 14,
+        "avg": 5848
+      },
+      {
+        "hour": 15,
+        "avg": 6057
+      },
+      {
+        "hour": 16,
+        "avg": 6095
+      },
+      {
+        "hour": 17,
+        "avg": 6600
+      },
+      {
+        "hour": 18,
+        "avg": 6786
+      },
+      {
+        "hour": 19,
+        "avg": 5873
+      },
+      {
+        "hour": 20,
+        "avg": 5095
+      },
+      {
+        "hour": 21,
+        "avg": 5086
+      },
+      {
+        "hour": 22,
+        "avg": 4506
+      },
+      {
+        "hour": 23,
+        "avg": 3412
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 90510
+      },
+      {
+        "day": "Tue",
+        "avg": 103384
+      },
+      {
+        "day": "Wed",
+        "avg": 110682
+      },
+      {
+        "day": "Thu",
+        "avg": 95730
+      },
+      {
+        "day": "Fri",
+        "avg": 91201
+      },
+      {
+        "day": "Sat",
+        "avg": 93296
+      },
+      {
+        "day": "Sun",
+        "avg": 74881
+      }
+    ],
+    "zones": [
+      {
+        "id": 161,
+        "trips": 140080,
+        "avg_dist": 2.32,
+        "avg_fare": 15.49
+      },
+      {
+        "id": 237,
+        "trips": 140072,
+        "avg_dist": 1.71,
+        "avg_fare": 12.37
+      },
+      {
+        "id": 132,
+        "trips": 138328,
+        "avg_dist": 15.26,
+        "avg_fare": 62.83
+      },
+      {
+        "id": 236,
+        "trips": 134218,
+        "avg_dist": 1.87,
+        "avg_fare": 12.86
+      },
+      {
+        "id": 162,
+        "trips": 104300,
+        "avg_dist": 2.26,
+        "avg_fare": 15.06
+      },
+      {
+        "id": 230,
+        "trips": 102894,
+        "avg_dist": 2.96,
+        "avg_fare": 17.89
+      },
+      {
+        "id": 186,
+        "trips": 102100,
+        "avg_dist": 2.29,
+        "avg_fare": 16.09
+      },
+      {
+        "id": 142,
+        "trips": 101706,
+        "avg_dist": 2.11,
+        "avg_fare": 13.62
+      },
+      {
+        "id": 138,
+        "trips": 87672,
+        "avg_dist": 9.61,
+        "avg_fare": 42.33
+      },
+      {
+        "id": 239,
+        "trips": 86433,
+        "avg_dist": 2.11,
+        "avg_fare": 13.6
+      }
+    ]
+  },
+  "2024-02": {
+    "kpis": {
+      "total_trips": 2950340,
+      "avg_daily": 101736,
+      "peak_hour": 18,
+      "avg_distance": 3.18,
+      "avg_fare": 18.38,
+      "avg_duration": 15.3
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 2700
+      },
+      {
+        "hour": 1,
+        "avg": 1840
+      },
+      {
+        "hour": 2,
+        "avg": 1249
+      },
+      {
+        "hour": 3,
+        "avg": 808
+      },
+      {
+        "hour": 4,
+        "avg": 546
+      },
+      {
+        "hour": 5,
+        "avg": 581
+      },
+      {
+        "hour": 6,
+        "avg": 1361
+      },
+      {
+        "hour": 7,
+        "avg": 2882
+      },
+      {
+        "hour": 8,
+        "avg": 4067
+      },
+      {
+        "hour": 9,
+        "avg": 4416
+      },
+      {
+        "hour": 10,
+        "avg": 4659
+      },
+      {
+        "hour": 11,
+        "avg": 4952
+      },
+      {
+        "hour": 12,
+        "avg": 5371
+      },
+      {
+        "hour": 13,
+        "avg": 5542
+      },
+      {
+        "hour": 14,
+        "avg": 5936
+      },
+      {
+        "hour": 15,
+        "avg": 6122
+      },
+      {
+        "hour": 16,
+        "avg": 6328
+      },
+      {
+        "hour": 17,
+        "avg": 7051
+      },
+      {
+        "hour": 18,
+        "avg": 7640
+      },
+      {
+        "hour": 19,
+        "avg": 6618
+      },
+      {
+        "hour": 20,
+        "avg": 5828
+      },
+      {
+        "hour": 21,
+        "avg": 5827
+      },
+      {
+        "hour": 22,
+        "avg": 5289
+      },
+      {
+        "hour": 23,
+        "avg": 4124
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 81838
+      },
+      {
+        "day": "Tue",
+        "avg": 91654
+      },
+      {
+        "day": "Wed",
+        "avg": 104867
+      },
+      {
+        "day": "Thu",
+        "avg": 140327
+      },
+      {
+        "day": "Fri",
+        "avg": 100785
+      },
+      {
+        "day": "Sat",
+        "avg": 104919
+      },
+      {
+        "day": "Sun",
+        "avg": 87760
+      }
+    ],
+    "zones": [
+      {
+        "id": 161,
+        "trips": 143293,
+        "avg_dist": 2.34,
+        "avg_fare": 15.81
+      },
+      {
+        "id": 237,
+        "trips": 137929,
+        "avg_dist": 1.75,
+        "avg_fare": 12.66
+      },
+      {
+        "id": 236,
+        "trips": 131290,
+        "avg_dist": 1.92,
+        "avg_fare": 13.15
+      },
+      {
+        "id": 132,
+        "trips": 120578,
+        "avg_dist": 15.26,
+        "avg_fare": 63.27
+      },
+      {
+        "id": 162,
+        "trips": 103235,
+        "avg_dist": 2.26,
+        "avg_fare": 15.34
+      },
+      {
+        "id": 230,
+        "trips": 98552,
+        "avg_dist": 2.97,
+        "avg_fare": 18.15
+      },
+      {
+        "id": 186,
+        "trips": 97817,
+        "avg_dist": 2.28,
+        "avg_fare": 16.52
+      },
+      {
+        "id": 142,
+        "trips": 94706,
+        "avg_dist": 2.14,
+        "avg_fare": 13.84
+      },
+      {
+        "id": 239,
+        "trips": 88358,
+        "avg_dist": 2.15,
+        "avg_fare": 13.89
+      },
+      {
+        "id": 163,
+        "trips": 86818,
+        "avg_dist": 2.37,
+        "avg_fare": 15.58
+      }
+    ]
+  },
+  "2024-03": {
+    "kpis": {
+      "total_trips": 3492635,
+      "avg_daily": 112666,
+      "peak_hour": 18,
+      "avg_distance": 3.31,
+      "avg_fare": 19.11,
+      "avg_duration": 16.1
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3336
+      },
+      {
+        "hour": 1,
+        "avg": 2197
+      },
+      {
+        "hour": 2,
+        "avg": 1340
+      },
+      {
+        "hour": 3,
+        "avg": 992
+      },
+      {
+        "hour": 4,
+        "avg": 718
+      },
+      {
+        "hour": 5,
+        "avg": 695
+      },
+      {
+        "hour": 6,
+        "avg": 1537
+      },
+      {
+        "hour": 7,
+        "avg": 3016
+      },
+      {
+        "hour": 8,
+        "avg": 4246
+      },
+      {
+        "hour": 9,
+        "avg": 4690
+      },
+      {
+        "hour": 10,
+        "avg": 4932
+      },
+      {
+        "hour": 11,
+        "avg": 5345
+      },
+      {
+        "hour": 12,
+        "avg": 5930
+      },
+      {
+        "hour": 13,
+        "avg": 6117
+      },
+      {
+        "hour": 14,
+        "avg": 6541
+      },
+      {
+        "hour": 15,
+        "avg": 6723
+      },
+      {
+        "hour": 16,
+        "avg": 6891
+      },
+      {
+        "hour": 17,
+        "avg": 7632
+      },
+      {
+        "hour": 18,
+        "avg": 7978
+      },
+      {
+        "hour": 19,
+        "avg": 7333
+      },
+      {
+        "hour": 20,
+        "avg": 6842
+      },
+      {
+        "hour": 21,
+        "avg": 6772
+      },
+      {
+        "hour": 22,
+        "avg": 6181
+      },
+      {
+        "hour": 23,
+        "avg": 4681
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 84636
+      },
+      {
+        "day": "Tue",
+        "avg": 99372
+      },
+      {
+        "day": "Wed",
+        "avg": 108831
+      },
+      {
+        "day": "Thu",
+        "avg": 115528
+      },
+      {
+        "day": "Fri",
+        "avg": 132915
+      },
+      {
+        "day": "Sat",
+        "avg": 136857
+      },
+      {
+        "day": "Sun",
+        "avg": 110521
+      }
+    ],
+    "zones": [
+      {
+        "id": 161,
+        "trips": 158474,
+        "avg_dist": 2.41,
+        "avg_fare": 16.27
+      },
+      {
+        "id": 237,
+        "trips": 151833,
+        "avg_dist": 1.83,
+        "avg_fare": 13.08
+      },
+      {
+        "id": 132,
+        "trips": 149413,
+        "avg_dist": 15.52,
+        "avg_fare": 64.32
+      },
+      {
+        "id": 236,
+        "trips": 142514,
+        "avg_dist": 2.02,
+        "avg_fare": 13.65
+      },
+      {
+        "id": 162,
+        "trips": 120312,
+        "avg_dist": 2.34,
+        "avg_fare": 15.82
+      },
+      {
+        "id": 230,
+        "trips": 118125,
+        "avg_dist": 3.08,
+        "avg_fare": 18.82
+      },
+      {
+        "id": 186,
+        "trips": 111576,
+        "avg_dist": 2.3,
+        "avg_fare": 17.05
+      },
+      {
+        "id": 142,
+        "trips": 111432,
+        "avg_dist": 2.18,
+        "avg_fare": 14.13
+      },
+      {
+        "id": 138,
+        "trips": 105325,
+        "avg_dist": 9.65,
+        "avg_fare": 43.25
+      },
+      {
+        "id": 170,
+        "trips": 100192,
+        "avg_dist": 2.34,
+        "avg_fare": 15.85
+      }
+    ]
+  },
+  "2024-04": {
+    "kpis": {
+      "total_trips": 3465653,
+      "avg_daily": 115522,
+      "peak_hour": 18,
+      "avg_distance": 3.35,
+      "avg_fare": 19.41,
+      "avg_duration": 16.4
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3271
+      },
+      {
+        "hour": 1,
+        "avg": 2088
+      },
+      {
+        "hour": 2,
+        "avg": 1376
+      },
+      {
+        "hour": 3,
+        "avg": 866
+      },
+      {
+        "hour": 4,
+        "avg": 651
+      },
+      {
+        "hour": 5,
+        "avg": 726
+      },
+      {
+        "hour": 6,
+        "avg": 1704
+      },
+      {
+        "hour": 7,
+        "avg": 3374
+      },
+      {
+        "hour": 8,
+        "avg": 4473
+      },
+      {
+        "hour": 9,
+        "avg": 4805
+      },
+      {
+        "hour": 10,
+        "avg": 5094
+      },
+      {
+        "hour": 11,
+        "avg": 5533
+      },
+      {
+        "hour": 12,
+        "avg": 6089
+      },
+      {
+        "hour": 13,
+        "avg": 6290
+      },
+      {
+        "hour": 14,
+        "avg": 6668
+      },
+      {
+        "hour": 15,
+        "avg": 6855
+      },
+      {
+        "hour": 16,
+        "avg": 7021
+      },
+      {
+        "hour": 17,
+        "avg": 7810
+      },
+      {
+        "hour": 18,
+        "avg": 8179
+      },
+      {
+        "hour": 19,
+        "avg": 7184
+      },
+      {
+        "hour": 20,
+        "avg": 6836
+      },
+      {
+        "hour": 21,
+        "avg": 7008
+      },
+      {
+        "hour": 22,
+        "avg": 6638
+      },
+      {
+        "hour": 23,
+        "avg": 4983
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 110611
+      },
+      {
+        "day": "Tue",
+        "avg": 132631
+      },
+      {
+        "day": "Wed",
+        "avg": 114464
+      },
+      {
+        "day": "Thu",
+        "avg": 123716
+      },
+      {
+        "day": "Fri",
+        "avg": 112878
+      },
+      {
+        "day": "Sat",
+        "avg": 117585
+      },
+      {
+        "day": "Sun",
+        "avg": 96767
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 161721,
+        "avg_dist": 1.8,
+        "avg_fare": 13.09
+      },
+      {
+        "id": 161,
+        "trips": 159846,
+        "avg_dist": 2.41,
+        "avg_fare": 16.44
+      },
+      {
+        "id": 236,
+        "trips": 149511,
+        "avg_dist": 1.98,
+        "avg_fare": 13.63
+      },
+      {
+        "id": 132,
+        "trips": 148928,
+        "avg_dist": 15.38,
+        "avg_fare": 64.05
+      },
+      {
+        "id": 162,
+        "trips": 116641,
+        "avg_dist": 2.34,
+        "avg_fare": 15.93
+      },
+      {
+        "id": 142,
+        "trips": 114436,
+        "avg_dist": 2.2,
+        "avg_fare": 14.34
+      },
+      {
+        "id": 230,
+        "trips": 113506,
+        "avg_dist": 3.15,
+        "avg_fare": 19.24
+      },
+      {
+        "id": 186,
+        "trips": 108972,
+        "avg_dist": 2.33,
+        "avg_fare": 17.34
+      },
+      {
+        "id": 138,
+        "trips": 108910,
+        "avg_dist": 9.64,
+        "avg_fare": 43.48
+      },
+      {
+        "id": 239,
+        "trips": 98716,
+        "avg_dist": 2.25,
+        "avg_fare": 14.44
+      }
+    ]
+  },
+  "2024-05": {
+    "kpis": {
+      "total_trips": 3673662,
+      "avg_daily": 118505,
+      "peak_hour": 18,
+      "avg_distance": 3.38,
+      "avg_fare": 20.1,
+      "avg_duration": 17.4
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3229
+      },
+      {
+        "hour": 1,
+        "avg": 1954
+      },
+      {
+        "hour": 2,
+        "avg": 1208
+      },
+      {
+        "hour": 3,
+        "avg": 783
+      },
+      {
+        "hour": 4,
+        "avg": 625
+      },
+      {
+        "hour": 5,
+        "avg": 734
+      },
+      {
+        "hour": 6,
+        "avg": 1720
+      },
+      {
+        "hour": 7,
+        "avg": 3520
+      },
+      {
+        "hour": 8,
+        "avg": 4706
+      },
+      {
+        "hour": 9,
+        "avg": 5080
+      },
+      {
+        "hour": 10,
+        "avg": 5333
+      },
+      {
+        "hour": 11,
+        "avg": 5738
+      },
+      {
+        "hour": 12,
+        "avg": 6265
+      },
+      {
+        "hour": 13,
+        "avg": 6514
+      },
+      {
+        "hour": 14,
+        "avg": 7157
+      },
+      {
+        "hour": 15,
+        "avg": 7331
+      },
+      {
+        "hour": 16,
+        "avg": 7322
+      },
+      {
+        "hour": 17,
+        "avg": 8138
+      },
+      {
+        "hour": 18,
+        "avg": 8544
+      },
+      {
+        "hour": 19,
+        "avg": 7396
+      },
+      {
+        "hour": 20,
+        "avg": 6486
+      },
+      {
+        "hour": 21,
+        "avg": 6975
+      },
+      {
+        "hour": 22,
+        "avg": 6649
+      },
+      {
+        "hour": 23,
+        "avg": 5097
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 87818
+      },
+      {
+        "day": "Tue",
+        "avg": 106654
+      },
+      {
+        "day": "Wed",
+        "avg": 142899
+      },
+      {
+        "day": "Thu",
+        "avg": 147201
+      },
+      {
+        "day": "Fri",
+        "avg": 139492
+      },
+      {
+        "day": "Sat",
+        "avg": 109405
+      },
+      {
+        "day": "Sun",
+        "avg": 96068
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 179909,
+        "avg_dist": 1.8,
+        "avg_fare": 13.62
+      },
+      {
+        "id": 161,
+        "trips": 170733,
+        "avg_dist": 2.44,
+        "avg_fare": 17.21
+      },
+      {
+        "id": 236,
+        "trips": 165680,
+        "avg_dist": 2.01,
+        "avg_fare": 14.19
+      },
+      {
+        "id": 132,
+        "trips": 157759,
+        "avg_dist": 15.37,
+        "avg_fare": 64.44
+      },
+      {
+        "id": 138,
+        "trips": 124078,
+        "avg_dist": 9.63,
+        "avg_fare": 45.0
+      },
+      {
+        "id": 162,
+        "trips": 122731,
+        "avg_dist": 2.36,
+        "avg_fare": 16.62
+      },
+      {
+        "id": 142,
+        "trips": 122315,
+        "avg_dist": 2.22,
+        "avg_fare": 14.95
+      },
+      {
+        "id": 230,
+        "trips": 117982,
+        "avg_dist": 3.27,
+        "avg_fare": 20.35
+      },
+      {
+        "id": 186,
+        "trips": 111772,
+        "avg_dist": 2.35,
+        "avg_fare": 17.66
+      },
+      {
+        "id": 163,
+        "trips": 104585,
+        "avg_dist": 2.49,
+        "avg_fare": 17.08
+      }
+    ]
+  },
+  "2024-06": {
+    "kpis": {
+      "total_trips": 3478422,
+      "avg_daily": 115947,
+      "peak_hour": 18,
+      "avg_distance": 3.38,
+      "avg_fare": 19.92,
+      "avg_duration": 17.0
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3702
+      },
+      {
+        "hour": 1,
+        "avg": 2391
+      },
+      {
+        "hour": 2,
+        "avg": 1567
+      },
+      {
+        "hour": 3,
+        "avg": 997
+      },
+      {
+        "hour": 4,
+        "avg": 701
+      },
+      {
+        "hour": 5,
+        "avg": 713
+      },
+      {
+        "hour": 6,
+        "avg": 1540
+      },
+      {
+        "hour": 7,
+        "avg": 2949
+      },
+      {
+        "hour": 8,
+        "avg": 4247
+      },
+      {
+        "hour": 9,
+        "avg": 4763
+      },
+      {
+        "hour": 10,
+        "avg": 5188
+      },
+      {
+        "hour": 11,
+        "avg": 5709
+      },
+      {
+        "hour": 12,
+        "avg": 6204
+      },
+      {
+        "hour": 13,
+        "avg": 6510
+      },
+      {
+        "hour": 14,
+        "avg": 6977
+      },
+      {
+        "hour": 15,
+        "avg": 7109
+      },
+      {
+        "hour": 16,
+        "avg": 7157
+      },
+      {
+        "hour": 17,
+        "avg": 7757
+      },
+      {
+        "hour": 18,
+        "avg": 8180
+      },
+      {
+        "hour": 19,
+        "avg": 7021
+      },
+      {
+        "hour": 20,
+        "avg": 6233
+      },
+      {
+        "hour": 21,
+        "avg": 6655
+      },
+      {
+        "hour": 22,
+        "avg": 6453
+      },
+      {
+        "hour": 23,
+        "avg": 5225
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 97818
+      },
+      {
+        "day": "Tue",
+        "avg": 113340
+      },
+      {
+        "day": "Wed",
+        "avg": 113242
+      },
+      {
+        "day": "Thu",
+        "avg": 119993
+      },
+      {
+        "day": "Fri",
+        "avg": 111407
+      },
+      {
+        "day": "Sat",
+        "avg": 138575
+      },
+      {
+        "day": "Sun",
+        "avg": 117257
+      }
+    ],
+    "zones": [
+      {
+        "id": 161,
+        "trips": 158861,
+        "avg_dist": 2.4,
+        "avg_fare": 16.8
+      },
+      {
+        "id": 237,
+        "trips": 156057,
+        "avg_dist": 1.79,
+        "avg_fare": 13.23
+      },
+      {
+        "id": 132,
+        "trips": 151982,
+        "avg_dist": 15.28,
+        "avg_fare": 64.45
+      },
+      {
+        "id": 236,
+        "trips": 140670,
+        "avg_dist": 2.01,
+        "avg_fare": 13.84
+      },
+      {
+        "id": 162,
+        "trips": 117771,
+        "avg_dist": 2.34,
+        "avg_fare": 16.44
+      },
+      {
+        "id": 230,
+        "trips": 113096,
+        "avg_dist": 3.22,
+        "avg_fare": 20.0
+      },
+      {
+        "id": 138,
+        "trips": 112900,
+        "avg_dist": 9.65,
+        "avg_fare": 44.75
+      },
+      {
+        "id": 186,
+        "trips": 108636,
+        "avg_dist": 2.39,
+        "avg_fare": 17.75
+      },
+      {
+        "id": 142,
+        "trips": 104681,
+        "avg_dist": 2.22,
+        "avg_fare": 14.73
+      },
+      {
+        "id": 170,
+        "trips": 100945,
+        "avg_dist": 2.32,
+        "avg_fare": 16.26
+      }
+    ]
+  },
+  "2024-07": {
+    "kpis": {
+      "total_trips": 3020923,
+      "avg_daily": 97449,
+      "peak_hour": 18,
+      "avg_distance": 3.54,
+      "avg_fare": 20.12,
+      "avg_duration": 16.6
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 2682
+      },
+      {
+        "hour": 1,
+        "avg": 1731
+      },
+      {
+        "hour": 2,
+        "avg": 1128
+      },
+      {
+        "hour": 3,
+        "avg": 716
+      },
+      {
+        "hour": 4,
+        "avg": 532
+      },
+      {
+        "hour": 5,
+        "avg": 612
+      },
+      {
+        "hour": 6,
+        "avg": 1413
+      },
+      {
+        "hour": 7,
+        "avg": 2582
+      },
+      {
+        "hour": 8,
+        "avg": 3871
+      },
+      {
+        "hour": 9,
+        "avg": 4200
+      },
+      {
+        "hour": 10,
+        "avg": 4492
+      },
+      {
+        "hour": 11,
+        "avg": 4889
+      },
+      {
+        "hour": 12,
+        "avg": 5382
+      },
+      {
+        "hour": 13,
+        "avg": 5698
+      },
+      {
+        "hour": 14,
+        "avg": 5993
+      },
+      {
+        "hour": 15,
+        "avg": 5990
+      },
+      {
+        "hour": 16,
+        "avg": 6073
+      },
+      {
+        "hour": 17,
+        "avg": 6564
+      },
+      {
+        "hour": 18,
+        "avg": 6807
+      },
+      {
+        "hour": 19,
+        "avg": 5951
+      },
+      {
+        "hour": 20,
+        "avg": 5361
+      },
+      {
+        "hour": 21,
+        "avg": 5698
+      },
+      {
+        "hour": 22,
+        "avg": 5191
+      },
+      {
+        "hour": 23,
+        "avg": 3896
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 102378
+      },
+      {
+        "day": "Tue",
+        "avg": 119503
+      },
+      {
+        "day": "Wed",
+        "avg": 122408
+      },
+      {
+        "day": "Thu",
+        "avg": 91726
+      },
+      {
+        "day": "Fri",
+        "avg": 84248
+      },
+      {
+        "day": "Sat",
+        "avg": 83700
+      },
+      {
+        "day": "Sun",
+        "avg": 78180
+      }
+    ],
+    "zones": [
+      {
+        "id": 132,
+        "trips": 170986,
+        "avg_dist": 15.21,
+        "avg_fare": 63.84
+      },
+      {
+        "id": 161,
+        "trips": 151937,
+        "avg_dist": 2.34,
+        "avg_fare": 16.38
+      },
+      {
+        "id": 237,
+        "trips": 125629,
+        "avg_dist": 1.78,
+        "avg_fare": 12.83
+      },
+      {
+        "id": 162,
+        "trips": 110676,
+        "avg_dist": 2.28,
+        "avg_fare": 15.9
+      },
+      {
+        "id": 236,
+        "trips": 107768,
+        "avg_dist": 2.03,
+        "avg_fare": 13.51
+      },
+      {
+        "id": 230,
+        "trips": 104539,
+        "avg_dist": 3.18,
+        "avg_fare": 19.62
+      },
+      {
+        "id": 186,
+        "trips": 103633,
+        "avg_dist": 2.34,
+        "avg_fare": 17.04
+      },
+      {
+        "id": 138,
+        "trips": 99660,
+        "avg_dist": 9.6,
+        "avg_fare": 43.24
+      },
+      {
+        "id": 170,
+        "trips": 92463,
+        "avg_dist": 2.27,
+        "avg_fare": 15.77
+      },
+      {
+        "id": 142,
+        "trips": 86659,
+        "avg_dist": 2.21,
+        "avg_fare": 14.37
+      }
+    ]
+  },
+  "2024-08": {
+    "kpis": {
+      "total_trips": 2914485,
+      "avg_daily": 94016,
+      "peak_hour": 18,
+      "avg_distance": 3.61,
+      "avg_fare": 20.35,
+      "avg_duration": 16.7
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 2621
+      },
+      {
+        "hour": 1,
+        "avg": 1799
+      },
+      {
+        "hour": 2,
+        "avg": 1231
+      },
+      {
+        "hour": 3,
+        "avg": 806
+      },
+      {
+        "hour": 4,
+        "avg": 593
+      },
+      {
+        "hour": 5,
+        "avg": 635
+      },
+      {
+        "hour": 6,
+        "avg": 1457
+      },
+      {
+        "hour": 7,
+        "avg": 2337
+      },
+      {
+        "hour": 8,
+        "avg": 3478
+      },
+      {
+        "hour": 9,
+        "avg": 3983
+      },
+      {
+        "hour": 10,
+        "avg": 4304
+      },
+      {
+        "hour": 11,
+        "avg": 4735
+      },
+      {
+        "hour": 12,
+        "avg": 5142
+      },
+      {
+        "hour": 13,
+        "avg": 5393
+      },
+      {
+        "hour": 14,
+        "avg": 5693
+      },
+      {
+        "hour": 15,
+        "avg": 5826
+      },
+      {
+        "hour": 16,
+        "avg": 5958
+      },
+      {
+        "hour": 17,
+        "avg": 6523
+      },
+      {
+        "hour": 18,
+        "avg": 6693
+      },
+      {
+        "hour": 19,
+        "avg": 5789
+      },
+      {
+        "hour": 20,
+        "avg": 5367
+      },
+      {
+        "hour": 21,
+        "avg": 5295
+      },
+      {
+        "hour": 22,
+        "avg": 4743
+      },
+      {
+        "hour": 23,
+        "avg": 3615
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 76438
+      },
+      {
+        "day": "Tue",
+        "avg": 88333
+      },
+      {
+        "day": "Wed",
+        "avg": 90535
+      },
+      {
+        "day": "Thu",
+        "avg": 116040
+      },
+      {
+        "day": "Fri",
+        "avg": 105714
+      },
+      {
+        "day": "Sat",
+        "avg": 106746
+      },
+      {
+        "day": "Sun",
+        "avg": 74305
+      }
+    ],
+    "zones": [
+      {
+        "id": 132,
+        "trips": 171285,
+        "avg_dist": 15.13,
+        "avg_fare": 63.88
+      },
+      {
+        "id": 161,
+        "trips": 136363,
+        "avg_dist": 2.38,
+        "avg_fare": 16.3
+      },
+      {
+        "id": 237,
+        "trips": 116491,
+        "avg_dist": 1.8,
+        "avg_fare": 12.88
+      },
+      {
+        "id": 186,
+        "trips": 102580,
+        "avg_dist": 2.37,
+        "avg_fare": 17.1
+      },
+      {
+        "id": 162,
+        "trips": 102236,
+        "avg_dist": 2.29,
+        "avg_fare": 15.66
+      },
+      {
+        "id": 138,
+        "trips": 99409,
+        "avg_dist": 9.54,
+        "avg_fare": 42.94
+      },
+      {
+        "id": 236,
+        "trips": 98889,
+        "avg_dist": 2.04,
+        "avg_fare": 13.51
+      },
+      {
+        "id": 230,
+        "trips": 98779,
+        "avg_dist": 3.18,
+        "avg_fare": 19.66
+      },
+      {
+        "id": 170,
+        "trips": 86001,
+        "avg_dist": 2.31,
+        "avg_fare": 15.77
+      },
+      {
+        "id": 68,
+        "trips": 81633,
+        "avg_dist": 2.56,
+        "avg_fare": 17.41
+      }
+    ]
+  },
+  "2024-09": {
+    "kpis": {
+      "total_trips": 3534024,
+      "avg_daily": 117801,
+      "peak_hour": 18,
+      "avg_distance": 3.49,
+      "avg_fare": 20.63,
+      "avg_duration": 18.1
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3645
+      },
+      {
+        "hour": 1,
+        "avg": 2283
+      },
+      {
+        "hour": 2,
+        "avg": 1520
+      },
+      {
+        "hour": 3,
+        "avg": 964
+      },
+      {
+        "hour": 4,
+        "avg": 670
+      },
+      {
+        "hour": 5,
+        "avg": 730
+      },
+      {
+        "hour": 6,
+        "avg": 1767
+      },
+      {
+        "hour": 7,
+        "avg": 3480
+      },
+      {
+        "hour": 8,
+        "avg": 4494
+      },
+      {
+        "hour": 9,
+        "avg": 4747
+      },
+      {
+        "hour": 10,
+        "avg": 5052
+      },
+      {
+        "hour": 11,
+        "avg": 5500
+      },
+      {
+        "hour": 12,
+        "avg": 5990
+      },
+      {
+        "hour": 13,
+        "avg": 6250
+      },
+      {
+        "hour": 14,
+        "avg": 6790
+      },
+      {
+        "hour": 15,
+        "avg": 7127
+      },
+      {
+        "hour": 16,
+        "avg": 7111
+      },
+      {
+        "hour": 17,
+        "avg": 7907
+      },
+      {
+        "hour": 18,
+        "avg": 8292
+      },
+      {
+        "hour": 19,
+        "avg": 7613
+      },
+      {
+        "hour": 20,
+        "avg": 7193
+      },
+      {
+        "hour": 21,
+        "avg": 6988
+      },
+      {
+        "hour": 22,
+        "avg": 6504
+      },
+      {
+        "hour": 23,
+        "avg": 5182
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 116758
+      },
+      {
+        "day": "Tue",
+        "avg": 106650
+      },
+      {
+        "day": "Wed",
+        "avg": 113076
+      },
+      {
+        "day": "Thu",
+        "avg": 123051
+      },
+      {
+        "day": "Fri",
+        "avg": 116413
+      },
+      {
+        "day": "Sat",
+        "avg": 122773
+      },
+      {
+        "day": "Sun",
+        "avg": 125884
+      }
+    ],
+    "zones": [
+      {
+        "id": 132,
+        "trips": 176352,
+        "avg_dist": 15.43,
+        "avg_fare": 64.87
+      },
+      {
+        "id": 237,
+        "trips": 161569,
+        "avg_dist": 1.81,
+        "avg_fare": 13.79
+      },
+      {
+        "id": 161,
+        "trips": 149068,
+        "avg_dist": 2.46,
+        "avg_fare": 17.39
+      },
+      {
+        "id": 236,
+        "trips": 145391,
+        "avg_dist": 1.97,
+        "avg_fare": 14.02
+      },
+      {
+        "id": 186,
+        "trips": 116822,
+        "avg_dist": 2.36,
+        "avg_fare": 17.95
+      },
+      {
+        "id": 162,
+        "trips": 113793,
+        "avg_dist": 2.38,
+        "avg_fare": 16.77
+      },
+      {
+        "id": 230,
+        "trips": 108976,
+        "avg_dist": 3.3,
+        "avg_fare": 20.64
+      },
+      {
+        "id": 138,
+        "trips": 107991,
+        "avg_dist": 9.58,
+        "avg_fare": 45.58
+      },
+      {
+        "id": 142,
+        "trips": 104394,
+        "avg_dist": 2.23,
+        "avg_fare": 15.21
+      },
+      {
+        "id": 68,
+        "trips": 100785,
+        "avg_dist": 2.55,
+        "avg_fare": 18.35
+      }
+    ]
+  },
+  "2024-10": {
+    "kpis": {
+      "total_trips": 3733753,
+      "avg_daily": 120444,
+      "peak_hour": 18,
+      "avg_distance": 3.44,
+      "avg_fare": 20.34,
+      "avg_duration": 17.8
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3438
+      },
+      {
+        "hour": 1,
+        "avg": 2146
+      },
+      {
+        "hour": 2,
+        "avg": 1382
+      },
+      {
+        "hour": 3,
+        "avg": 881
+      },
+      {
+        "hour": 4,
+        "avg": 643
+      },
+      {
+        "hour": 5,
+        "avg": 783
+      },
+      {
+        "hour": 6,
+        "avg": 1808
+      },
+      {
+        "hour": 7,
+        "avg": 3691
+      },
+      {
+        "hour": 8,
+        "avg": 4852
+      },
+      {
+        "hour": 9,
+        "avg": 5170
+      },
+      {
+        "hour": 10,
+        "avg": 5352
+      },
+      {
+        "hour": 11,
+        "avg": 5649
+      },
+      {
+        "hour": 12,
+        "avg": 6113
+      },
+      {
+        "hour": 13,
+        "avg": 6324
+      },
+      {
+        "hour": 14,
+        "avg": 6829
+      },
+      {
+        "hour": 15,
+        "avg": 7198
+      },
+      {
+        "hour": 16,
+        "avg": 7266
+      },
+      {
+        "hour": 17,
+        "avg": 8109
+      },
+      {
+        "hour": 18,
+        "avg": 8659
+      },
+      {
+        "hour": 19,
+        "avg": 7698
+      },
+      {
+        "hour": 20,
+        "avg": 7150
+      },
+      {
+        "hour": 21,
+        "avg": 7361
+      },
+      {
+        "hour": 22,
+        "avg": 6722
+      },
+      {
+        "hour": 23,
+        "avg": 5221
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 93114
+      },
+      {
+        "day": "Tue",
+        "avg": 136281
+      },
+      {
+        "day": "Wed",
+        "avg": 140781
+      },
+      {
+        "day": "Thu",
+        "avg": 144132
+      },
+      {
+        "day": "Fri",
+        "avg": 111248
+      },
+      {
+        "day": "Sat",
+        "avg": 118542
+      },
+      {
+        "day": "Sun",
+        "avg": 99009
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 186115,
+        "avg_dist": 1.79,
+        "avg_fare": 13.7
+      },
+      {
+        "id": 132,
+        "trips": 181802,
+        "avg_dist": 15.57,
+        "avg_fare": 64.92
+      },
+      {
+        "id": 161,
+        "trips": 172091,
+        "avg_dist": 2.47,
+        "avg_fare": 17.51
+      },
+      {
+        "id": 236,
+        "trips": 163260,
+        "avg_dist": 1.95,
+        "avg_fare": 13.89
+      },
+      {
+        "id": 162,
+        "trips": 128140,
+        "avg_dist": 2.38,
+        "avg_fare": 16.78
+      },
+      {
+        "id": 230,
+        "trips": 122483,
+        "avg_dist": 3.3,
+        "avg_fare": 20.88
+      },
+      {
+        "id": 142,
+        "trips": 121303,
+        "avg_dist": 2.22,
+        "avg_fare": 15.22
+      },
+      {
+        "id": 186,
+        "trips": 117680,
+        "avg_dist": 2.32,
+        "avg_fare": 17.85
+      },
+      {
+        "id": 138,
+        "trips": 115305,
+        "avg_dist": 9.61,
+        "avg_fare": 44.62
+      },
+      {
+        "id": 170,
+        "trips": 106169,
+        "avg_dist": 2.35,
+        "avg_fare": 16.71
+      }
+    ]
+  },
+  "2024-11": {
+    "kpis": {
+      "total_trips": 3557660,
+      "avg_daily": 118589,
+      "peak_hour": 18,
+      "avg_distance": 3.29,
+      "avg_fare": 19.8,
+      "avg_duration": 17.2
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3369
+      },
+      {
+        "hour": 1,
+        "avg": 2349
+      },
+      {
+        "hour": 2,
+        "avg": 1497
+      },
+      {
+        "hour": 3,
+        "avg": 1000
+      },
+      {
+        "hour": 4,
+        "avg": 739
+      },
+      {
+        "hour": 5,
+        "avg": 821
+      },
+      {
+        "hour": 6,
+        "avg": 1692
+      },
+      {
+        "hour": 7,
+        "avg": 3299
+      },
+      {
+        "hour": 8,
+        "avg": 4432
+      },
+      {
+        "hour": 9,
+        "avg": 4916
+      },
+      {
+        "hour": 10,
+        "avg": 5366
+      },
+      {
+        "hour": 11,
+        "avg": 5812
+      },
+      {
+        "hour": 12,
+        "avg": 6305
+      },
+      {
+        "hour": 13,
+        "avg": 6543
+      },
+      {
+        "hour": 14,
+        "avg": 7060
+      },
+      {
+        "hour": 15,
+        "avg": 7414
+      },
+      {
+        "hour": 16,
+        "avg": 7536
+      },
+      {
+        "hour": 17,
+        "avg": 8113
+      },
+      {
+        "hour": 18,
+        "avg": 8372
+      },
+      {
+        "hour": 19,
+        "avg": 7327
+      },
+      {
+        "hour": 20,
+        "avg": 6727
+      },
+      {
+        "hour": 21,
+        "avg": 6768
+      },
+      {
+        "hour": 22,
+        "avg": 6241
+      },
+      {
+        "hour": 23,
+        "avg": 4890
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 95603
+      },
+      {
+        "day": "Tue",
+        "avg": 106018
+      },
+      {
+        "day": "Wed",
+        "avg": 111643
+      },
+      {
+        "day": "Thu",
+        "avg": 114324
+      },
+      {
+        "day": "Fri",
+        "avg": 145423
+      },
+      {
+        "day": "Sat",
+        "avg": 150751
+      },
+      {
+        "day": "Sun",
+        "avg": 106358
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 175663,
+        "avg_dist": 1.75,
+        "avg_fare": 15.33
+      },
+      {
+        "id": 161,
+        "trips": 166338,
+        "avg_dist": 2.37,
+        "avg_fare": 16.9
+      },
+      {
+        "id": 236,
+        "trips": 156369,
+        "avg_dist": 1.95,
+        "avg_fare": 13.89
+      },
+      {
+        "id": 132,
+        "trips": 151418,
+        "avg_dist": 15.47,
+        "avg_fare": 64.76
+      },
+      {
+        "id": 230,
+        "trips": 120913,
+        "avg_dist": 3.13,
+        "avg_fare": 19.97
+      },
+      {
+        "id": 142,
+        "trips": 117817,
+        "avg_dist": 2.18,
+        "avg_fare": 14.97
+      },
+      {
+        "id": 162,
+        "trips": 117764,
+        "avg_dist": 2.3,
+        "avg_fare": 16.45
+      },
+      {
+        "id": 186,
+        "trips": 116021,
+        "avg_dist": 2.31,
+        "avg_fare": 17.79
+      },
+      {
+        "id": 163,
+        "trips": 102986,
+        "avg_dist": 2.39,
+        "avg_fare": 17.03
+      },
+      {
+        "id": 138,
+        "trips": 101598,
+        "avg_dist": 9.6,
+        "avg_fare": 44.91
+      }
+    ]
+  },
+  "2024-12": {
+    "kpis": {
+      "total_trips": 3568472,
+      "avg_daily": 115112,
+      "peak_hour": 18,
+      "avg_distance": 3.28,
+      "avg_fare": 20.34,
+      "avg_duration": 18.1
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3382
+      },
+      {
+        "hour": 1,
+        "avg": 2038
+      },
+      {
+        "hour": 2,
+        "avg": 1251
+      },
+      {
+        "hour": 3,
+        "avg": 810
+      },
+      {
+        "hour": 4,
+        "avg": 635
+      },
+      {
+        "hour": 5,
+        "avg": 675
+      },
+      {
+        "hour": 6,
+        "avg": 1442
+      },
+      {
+        "hour": 7,
+        "avg": 2931
+      },
+      {
+        "hour": 8,
+        "avg": 4110
+      },
+      {
+        "hour": 9,
+        "avg": 4620
+      },
+      {
+        "hour": 10,
+        "avg": 5191
+      },
+      {
+        "hour": 11,
+        "avg": 5773
+      },
+      {
+        "hour": 12,
+        "avg": 6315
+      },
+      {
+        "hour": 13,
+        "avg": 6526
+      },
+      {
+        "hour": 14,
+        "avg": 7063
+      },
+      {
+        "hour": 15,
+        "avg": 7432
+      },
+      {
+        "hour": 16,
+        "avg": 7342
+      },
+      {
+        "hour": 17,
+        "avg": 7741
+      },
+      {
+        "hour": 18,
+        "avg": 8048
+      },
+      {
+        "hour": 19,
+        "avg": 7174
+      },
+      {
+        "hour": 20,
+        "avg": 6712
+      },
+      {
+        "hour": 21,
+        "avg": 6816
+      },
+      {
+        "hour": 22,
+        "avg": 6208
+      },
+      {
+        "hour": 23,
+        "avg": 4878
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 114720
+      },
+      {
+        "day": "Tue",
+        "avg": 124382
+      },
+      {
+        "day": "Wed",
+        "avg": 104003
+      },
+      {
+        "day": "Thu",
+        "avg": 115260
+      },
+      {
+        "day": "Fri",
+        "avg": 116272
+      },
+      {
+        "day": "Sat",
+        "avg": 115652
+      },
+      {
+        "day": "Sun",
+        "avg": 115495
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 178595,
+        "avg_dist": 1.72,
+        "avg_fare": 13.74
+      },
+      {
+        "id": 236,
+        "trips": 159750,
+        "avg_dist": 1.88,
+        "avg_fare": 13.77
+      },
+      {
+        "id": 161,
+        "trips": 154359,
+        "avg_dist": 2.43,
+        "avg_fare": 18.2
+      },
+      {
+        "id": 132,
+        "trips": 151175,
+        "avg_dist": 15.29,
+        "avg_fare": 64.57
+      },
+      {
+        "id": 186,
+        "trips": 126792,
+        "avg_dist": 2.29,
+        "avg_fare": 18.71
+      },
+      {
+        "id": 162,
+        "trips": 123736,
+        "avg_dist": 2.31,
+        "avg_fare": 17.4
+      },
+      {
+        "id": 142,
+        "trips": 122661,
+        "avg_dist": 2.12,
+        "avg_fare": 15.2
+      },
+      {
+        "id": 230,
+        "trips": 118329,
+        "avg_dist": 3.25,
+        "avg_fare": 21.67
+      },
+      {
+        "id": 138,
+        "trips": 112254,
+        "avg_dist": 9.54,
+        "avg_fare": 46.05
+      },
+      {
+        "id": 163,
+        "trips": 106484,
+        "avg_dist": 2.49,
+        "avg_fare": 18.41
+      }
+    ]
+  },
+  "2025-01": {
+    "kpis": {
+      "total_trips": 3297225,
+      "avg_daily": 106362,
+      "peak_hour": 18,
+      "avg_distance": 3.12,
+      "avg_fare": 18.19,
+      "avg_duration": 14.7
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 2811
+      },
+      {
+        "hour": 1,
+        "avg": 1935
+      },
+      {
+        "hour": 2,
+        "avg": 1307
+      },
+      {
+        "hour": 3,
+        "avg": 832
+      },
+      {
+        "hour": 4,
+        "avg": 585
+      },
+      {
+        "hour": 5,
+        "avg": 670
+      },
+      {
+        "hour": 6,
+        "avg": 1530
+      },
+      {
+        "hour": 7,
+        "avg": 3179
+      },
+      {
+        "hour": 8,
+        "avg": 4388
+      },
+      {
+        "hour": 9,
+        "avg": 4499
+      },
+      {
+        "hour": 10,
+        "avg": 4689
+      },
+      {
+        "hour": 11,
+        "avg": 5054
+      },
+      {
+        "hour": 12,
+        "avg": 5507
+      },
+      {
+        "hour": 13,
+        "avg": 5841
+      },
+      {
+        "hour": 14,
+        "avg": 6342
+      },
+      {
+        "hour": 15,
+        "avg": 6697
+      },
+      {
+        "hour": 16,
+        "avg": 6663
+      },
+      {
+        "hour": 17,
+        "avg": 7521
+      },
+      {
+        "hour": 18,
+        "avg": 7746
+      },
+      {
+        "hour": 19,
+        "avg": 6562
+      },
+      {
+        "hour": 20,
+        "avg": 6022
+      },
+      {
+        "hour": 21,
+        "avg": 6315
+      },
+      {
+        "hour": 22,
+        "avg": 5540
+      },
+      {
+        "hour": 23,
+        "avg": 4128
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 78813
+      },
+      {
+        "day": "Tue",
+        "avg": 97680
+      },
+      {
+        "day": "Wed",
+        "avg": 122956
+      },
+      {
+        "day": "Thu",
+        "avg": 130978
+      },
+      {
+        "day": "Fri",
+        "avg": 124580
+      },
+      {
+        "day": "Sat",
+        "avg": 102977
+      },
+      {
+        "day": "Sun",
+        "avg": 86549
+      }
+    ],
+    "zones": [
+      {
+        "id": 161,
+        "trips": 161273,
+        "avg_dist": 2.2,
+        "avg_fare": 15.05
+      },
+      {
+        "id": 237,
+        "trips": 157936,
+        "avg_dist": 1.68,
+        "avg_fare": 12.18
+      },
+      {
+        "id": 236,
+        "trips": 150013,
+        "avg_dist": 1.85,
+        "avg_fare": 12.78
+      },
+      {
+        "id": 132,
+        "trips": 134759,
+        "avg_dist": 14.97,
+        "avg_fare": 62.63
+      },
+      {
+        "id": 230,
+        "trips": 118229,
+        "avg_dist": 2.81,
+        "avg_fare": 17.45
+      },
+      {
+        "id": 186,
+        "trips": 114089,
+        "avg_dist": 2.2,
+        "avg_fare": 15.44
+      },
+      {
+        "id": 162,
+        "trips": 112571,
+        "avg_dist": 2.19,
+        "avg_fare": 14.71
+      },
+      {
+        "id": 142,
+        "trips": 105975,
+        "avg_dist": 2.09,
+        "avg_fare": 13.63
+      },
+      {
+        "id": 239,
+        "trips": 91851,
+        "avg_dist": 2.07,
+        "avg_fare": 13.51
+      },
+      {
+        "id": 163,
+        "trips": 91521,
+        "avg_dist": 2.3,
+        "avg_fare": 15.31
+      }
+    ]
+  },
+  "2025-02": {
+    "kpis": {
+      "total_trips": 3349518,
+      "avg_daily": 119626,
+      "peak_hour": 18,
+      "avg_distance": 3.08,
+      "avg_fare": 18.04,
+      "avg_duration": 15.0
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3550
+      },
+      {
+        "hour": 1,
+        "avg": 2337
+      },
+      {
+        "hour": 2,
+        "avg": 1590
+      },
+      {
+        "hour": 3,
+        "avg": 1035
+      },
+      {
+        "hour": 4,
+        "avg": 752
+      },
+      {
+        "hour": 5,
+        "avg": 801
+      },
+      {
+        "hour": 6,
+        "avg": 1732
+      },
+      {
+        "hour": 7,
+        "avg": 3435
+      },
+      {
+        "hour": 8,
+        "avg": 4777
+      },
+      {
+        "hour": 9,
+        "avg": 4992
+      },
+      {
+        "hour": 10,
+        "avg": 5127
+      },
+      {
+        "hour": 11,
+        "avg": 5429
+      },
+      {
+        "hour": 12,
+        "avg": 5967
+      },
+      {
+        "hour": 13,
+        "avg": 6244
+      },
+      {
+        "hour": 14,
+        "avg": 6678
+      },
+      {
+        "hour": 15,
+        "avg": 7099
+      },
+      {
+        "hour": 16,
+        "avg": 7074
+      },
+      {
+        "hour": 17,
+        "avg": 8032
+      },
+      {
+        "hour": 18,
+        "avg": 8613
+      },
+      {
+        "hour": 19,
+        "avg": 7605
+      },
+      {
+        "hour": 20,
+        "avg": 7265
+      },
+      {
+        "hour": 21,
+        "avg": 7384
+      },
+      {
+        "hour": 22,
+        "avg": 6866
+      },
+      {
+        "hour": 23,
+        "avg": 5244
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 94621
+      },
+      {
+        "day": "Tue",
+        "avg": 112831
+      },
+      {
+        "day": "Wed",
+        "avg": 119740
+      },
+      {
+        "day": "Thu",
+        "avg": 129388
+      },
+      {
+        "day": "Fri",
+        "avg": 133099
+      },
+      {
+        "day": "Sat",
+        "avg": 137371
+      },
+      {
+        "day": "Sun",
+        "avg": 110330
+      }
+    ],
+    "zones": [
+      {
+        "id": 161,
+        "trips": 152406,
+        "avg_dist": 2.21,
+        "avg_fare": 16.23
+      },
+      {
+        "id": 237,
+        "trips": 150627,
+        "avg_dist": 1.74,
+        "avg_fare": 12.54
+      },
+      {
+        "id": 236,
+        "trips": 140992,
+        "avg_dist": 1.91,
+        "avg_fare": 13.16
+      },
+      {
+        "id": 132,
+        "trips": 115145,
+        "avg_dist": 14.91,
+        "avg_fare": 62.53
+      },
+      {
+        "id": 162,
+        "trips": 108081,
+        "avg_dist": 2.19,
+        "avg_fare": 14.9
+      },
+      {
+        "id": 186,
+        "trips": 107780,
+        "avg_dist": 2.19,
+        "avg_fare": 15.59
+      },
+      {
+        "id": 230,
+        "trips": 106857,
+        "avg_dist": 2.77,
+        "avg_fare": 17.37
+      },
+      {
+        "id": 142,
+        "trips": 98778,
+        "avg_dist": 2.09,
+        "avg_fare": 13.83
+      },
+      {
+        "id": 234,
+        "trips": 95944,
+        "avg_dist": 2.02,
+        "avg_fare": 14.07
+      },
+      {
+        "id": 170,
+        "trips": 90411,
+        "avg_dist": 2.15,
+        "avg_fare": 14.68
+      }
+    ]
+  },
+  "2025-03": {
+    "kpis": {
+      "total_trips": 3874600,
+      "avg_daily": 124987,
+      "peak_hour": 18,
+      "avg_distance": 3.29,
+      "avg_fare": 19.15,
+      "avg_duration": 15.7
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 4058
+      },
+      {
+        "hour": 1,
+        "avg": 2659
+      },
+      {
+        "hour": 2,
+        "avg": 1568
+      },
+      {
+        "hour": 3,
+        "avg": 1238
+      },
+      {
+        "hour": 4,
+        "avg": 986
+      },
+      {
+        "hour": 5,
+        "avg": 990
+      },
+      {
+        "hour": 6,
+        "avg": 1836
+      },
+      {
+        "hour": 7,
+        "avg": 3474
+      },
+      {
+        "hour": 8,
+        "avg": 4840
+      },
+      {
+        "hour": 9,
+        "avg": 5085
+      },
+      {
+        "hour": 10,
+        "avg": 5215
+      },
+      {
+        "hour": 11,
+        "avg": 5589
+      },
+      {
+        "hour": 12,
+        "avg": 6048
+      },
+      {
+        "hour": 13,
+        "avg": 6395
+      },
+      {
+        "hour": 14,
+        "avg": 6825
+      },
+      {
+        "hour": 15,
+        "avg": 7071
+      },
+      {
+        "hour": 16,
+        "avg": 7152
+      },
+      {
+        "hour": 17,
+        "avg": 8021
+      },
+      {
+        "hour": 18,
+        "avg": 8651
+      },
+      {
+        "hour": 19,
+        "avg": 8107
+      },
+      {
+        "hour": 20,
+        "avg": 8202
+      },
+      {
+        "hour": 21,
+        "avg": 8071
+      },
+      {
+        "hour": 22,
+        "avg": 7344
+      },
+      {
+        "hour": 23,
+        "avg": 5561
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 117737
+      },
+      {
+        "day": "Tue",
+        "avg": 105308
+      },
+      {
+        "day": "Wed",
+        "avg": 114971
+      },
+      {
+        "day": "Thu",
+        "avg": 125848
+      },
+      {
+        "day": "Fri",
+        "avg": 116009
+      },
+      {
+        "day": "Sat",
+        "avg": 163222
+      },
+      {
+        "day": "Sun",
+        "avg": 131814
+      }
+    ],
+    "zones": [
+      {
+        "id": 161,
+        "trips": 171832,
+        "avg_dist": 2.33,
+        "avg_fare": 16.06
+      },
+      {
+        "id": 237,
+        "trips": 162853,
+        "avg_dist": 1.82,
+        "avg_fare": 13.04
+      },
+      {
+        "id": 132,
+        "trips": 148115,
+        "avg_dist": 15.11,
+        "avg_fare": 63.44
+      },
+      {
+        "id": 236,
+        "trips": 145159,
+        "avg_dist": 1.99,
+        "avg_fare": 13.61
+      },
+      {
+        "id": 230,
+        "trips": 127444,
+        "avg_dist": 2.98,
+        "avg_fare": 18.57
+      },
+      {
+        "id": 186,
+        "trips": 126410,
+        "avg_dist": 2.25,
+        "avg_fare": 16.11
+      },
+      {
+        "id": 162,
+        "trips": 122230,
+        "avg_dist": 2.3,
+        "avg_fare": 15.55
+      },
+      {
+        "id": 142,
+        "trips": 110553,
+        "avg_dist": 2.2,
+        "avg_fare": 14.4
+      },
+      {
+        "id": 234,
+        "trips": 106919,
+        "avg_dist": 2.06,
+        "avg_fare": 14.44
+      },
+      {
+        "id": 138,
+        "trips": 104039,
+        "avg_dist": 9.56,
+        "avg_fare": 43.2
+      }
+    ]
+  },
+  "2025-04": {
+    "kpis": {
+      "total_trips": 3719973,
+      "avg_daily": 123999,
+      "peak_hour": 18,
+      "avg_distance": 3.32,
+      "avg_fare": 19.29,
+      "avg_duration": 16.3
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3635
+      },
+      {
+        "hour": 1,
+        "avg": 2329
+      },
+      {
+        "hour": 2,
+        "avg": 1586
+      },
+      {
+        "hour": 3,
+        "avg": 1020
+      },
+      {
+        "hour": 4,
+        "avg": 794
+      },
+      {
+        "hour": 5,
+        "avg": 906
+      },
+      {
+        "hour": 6,
+        "avg": 1905
+      },
+      {
+        "hour": 7,
+        "avg": 3713
+      },
+      {
+        "hour": 8,
+        "avg": 5013
+      },
+      {
+        "hour": 9,
+        "avg": 5337
+      },
+      {
+        "hour": 10,
+        "avg": 5579
+      },
+      {
+        "hour": 11,
+        "avg": 5982
+      },
+      {
+        "hour": 12,
+        "avg": 6474
+      },
+      {
+        "hour": 13,
+        "avg": 6766
+      },
+      {
+        "hour": 14,
+        "avg": 7237
+      },
+      {
+        "hour": 15,
+        "avg": 7450
+      },
+      {
+        "hour": 16,
+        "avg": 7474
+      },
+      {
+        "hour": 17,
+        "avg": 8230
+      },
+      {
+        "hour": 18,
+        "avg": 8429
+      },
+      {
+        "hour": 19,
+        "avg": 7433
+      },
+      {
+        "hour": 20,
+        "avg": 7022
+      },
+      {
+        "hour": 21,
+        "avg": 7428
+      },
+      {
+        "hour": 22,
+        "avg": 6988
+      },
+      {
+        "hour": 23,
+        "avg": 5269
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 95473
+      },
+      {
+        "day": "Tue",
+        "avg": 139357
+      },
+      {
+        "day": "Wed",
+        "avg": 150073
+      },
+      {
+        "day": "Thu",
+        "avg": 124297
+      },
+      {
+        "day": "Fri",
+        "avg": 121870
+      },
+      {
+        "day": "Sat",
+        "avg": 130043
+      },
+      {
+        "day": "Sun",
+        "avg": 106881
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 176883,
+        "avg_dist": 1.78,
+        "avg_fare": 13.02
+      },
+      {
+        "id": 161,
+        "trips": 173503,
+        "avg_dist": 2.33,
+        "avg_fare": 16.4
+      },
+      {
+        "id": 236,
+        "trips": 154105,
+        "avg_dist": 1.96,
+        "avg_fare": 13.55
+      },
+      {
+        "id": 132,
+        "trips": 145619,
+        "avg_dist": 15.03,
+        "avg_fare": 63.69
+      },
+      {
+        "id": 230,
+        "trips": 125117,
+        "avg_dist": 2.92,
+        "avg_fare": 18.53
+      },
+      {
+        "id": 186,
+        "trips": 120669,
+        "avg_dist": 2.28,
+        "avg_fare": 16.5
+      },
+      {
+        "id": 162,
+        "trips": 118324,
+        "avg_dist": 2.29,
+        "avg_fare": 15.78
+      },
+      {
+        "id": 142,
+        "trips": 109714,
+        "avg_dist": 2.17,
+        "avg_fare": 14.27
+      },
+      {
+        "id": 138,
+        "trips": 104089,
+        "avg_dist": 9.56,
+        "avg_fare": 44.12
+      },
+      {
+        "id": 234,
+        "trips": 100249,
+        "avg_dist": 2.08,
+        "avg_fare": 14.64
+      }
+    ]
+  },
+  "2025-05": {
+    "kpis": {
+      "total_trips": 4144316,
+      "avg_daily": 133688,
+      "peak_hour": 18,
+      "avg_distance": 3.49,
+      "avg_fare": 20.36,
+      "avg_duration": 17.8
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 4229
+      },
+      {
+        "hour": 1,
+        "avg": 2738
+      },
+      {
+        "hour": 2,
+        "avg": 1761
+      },
+      {
+        "hour": 3,
+        "avg": 1160
+      },
+      {
+        "hour": 4,
+        "avg": 948
+      },
+      {
+        "hour": 5,
+        "avg": 1046
+      },
+      {
+        "hour": 6,
+        "avg": 2077
+      },
+      {
+        "hour": 7,
+        "avg": 3897
+      },
+      {
+        "hour": 8,
+        "avg": 5177
+      },
+      {
+        "hour": 9,
+        "avg": 5526
+      },
+      {
+        "hour": 10,
+        "avg": 5842
+      },
+      {
+        "hour": 11,
+        "avg": 6207
+      },
+      {
+        "hour": 12,
+        "avg": 6799
+      },
+      {
+        "hour": 13,
+        "avg": 7085
+      },
+      {
+        "hour": 14,
+        "avg": 7724
+      },
+      {
+        "hour": 15,
+        "avg": 8073
+      },
+      {
+        "hour": 16,
+        "avg": 7934
+      },
+      {
+        "hour": 17,
+        "avg": 8769
+      },
+      {
+        "hour": 18,
+        "avg": 9021
+      },
+      {
+        "hour": 19,
+        "avg": 8083
+      },
+      {
+        "hour": 20,
+        "avg": 7677
+      },
+      {
+        "hour": 21,
+        "avg": 7879
+      },
+      {
+        "hour": 22,
+        "avg": 7740
+      },
+      {
+        "hour": 23,
+        "avg": 6296
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 101343
+      },
+      {
+        "day": "Tue",
+        "avg": 117210
+      },
+      {
+        "day": "Wed",
+        "avg": 128486
+      },
+      {
+        "day": "Thu",
+        "avg": 163473
+      },
+      {
+        "day": "Fri",
+        "avg": 153339
+      },
+      {
+        "day": "Sat",
+        "avg": 158810
+      },
+      {
+        "day": "Sun",
+        "avg": 113153
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 192517,
+        "avg_dist": 1.83,
+        "avg_fare": 13.71
+      },
+      {
+        "id": 132,
+        "trips": 176676,
+        "avg_dist": 15.04,
+        "avg_fare": 64.65
+      },
+      {
+        "id": 161,
+        "trips": 171230,
+        "avg_dist": 2.38,
+        "avg_fare": 17.18
+      },
+      {
+        "id": 236,
+        "trips": 168232,
+        "avg_dist": 2.02,
+        "avg_fare": 14.22
+      },
+      {
+        "id": 142,
+        "trips": 125471,
+        "avg_dist": 2.24,
+        "avg_fare": 14.91
+      },
+      {
+        "id": 230,
+        "trips": 125368,
+        "avg_dist": 3.12,
+        "avg_fare": 19.8
+      },
+      {
+        "id": 162,
+        "trips": 123252,
+        "avg_dist": 2.34,
+        "avg_fare": 16.51
+      },
+      {
+        "id": 186,
+        "trips": 120654,
+        "avg_dist": 2.38,
+        "avg_fare": 17.36
+      },
+      {
+        "id": 138,
+        "trips": 119927,
+        "avg_dist": 9.6,
+        "avg_fare": 46.0
+      },
+      {
+        "id": 234,
+        "trips": 108279,
+        "avg_dist": 2.16,
+        "avg_fare": 15.41
+      }
+    ]
+  },
+  "2025-06": {
+    "kpis": {
+      "total_trips": 3916469,
+      "avg_daily": 130549,
+      "peak_hour": 18,
+      "avg_distance": 3.56,
+      "avg_fare": 20.81,
+      "avg_duration": 17.3
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 4605
+      },
+      {
+        "hour": 1,
+        "avg": 3049
+      },
+      {
+        "hour": 2,
+        "avg": 2051
+      },
+      {
+        "hour": 3,
+        "avg": 1388
+      },
+      {
+        "hour": 4,
+        "avg": 1071
+      },
+      {
+        "hour": 5,
+        "avg": 1051
+      },
+      {
+        "hour": 6,
+        "avg": 2023
+      },
+      {
+        "hour": 7,
+        "avg": 3549
+      },
+      {
+        "hour": 8,
+        "avg": 4897
+      },
+      {
+        "hour": 9,
+        "avg": 5338
+      },
+      {
+        "hour": 10,
+        "avg": 5700
+      },
+      {
+        "hour": 11,
+        "avg": 6092
+      },
+      {
+        "hour": 12,
+        "avg": 6694
+      },
+      {
+        "hour": 13,
+        "avg": 7070
+      },
+      {
+        "hour": 14,
+        "avg": 7535
+      },
+      {
+        "hour": 15,
+        "avg": 7772
+      },
+      {
+        "hour": 16,
+        "avg": 7602
+      },
+      {
+        "hour": 17,
+        "avg": 8264
+      },
+      {
+        "hour": 18,
+        "avg": 8618
+      },
+      {
+        "hour": 19,
+        "avg": 7612
+      },
+      {
+        "hour": 20,
+        "avg": 7246
+      },
+      {
+        "hour": 21,
+        "avg": 7796
+      },
+      {
+        "hour": 22,
+        "avg": 7497
+      },
+      {
+        "hour": 23,
+        "avg": 6030
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 131239
+      },
+      {
+        "day": "Tue",
+        "avg": 122040
+      },
+      {
+        "day": "Wed",
+        "avg": 131896
+      },
+      {
+        "day": "Thu",
+        "avg": 134409
+      },
+      {
+        "day": "Fri",
+        "avg": 122896
+      },
+      {
+        "day": "Sat",
+        "avg": 129839
+      },
+      {
+        "day": "Sun",
+        "avg": 141525
+      }
+    ],
+    "zones": [
+      {
+        "id": 132,
+        "trips": 170534,
+        "avg_dist": 14.87,
+        "avg_fare": 64.01
+      },
+      {
+        "id": 237,
+        "trips": 166435,
+        "avg_dist": 1.81,
+        "avg_fare": 13.33
+      },
+      {
+        "id": 161,
+        "trips": 163744,
+        "avg_dist": 2.35,
+        "avg_fare": 18.84
+      },
+      {
+        "id": 236,
+        "trips": 143855,
+        "avg_dist": 2.06,
+        "avg_fare": 14.14
+      },
+      {
+        "id": 186,
+        "trips": 119878,
+        "avg_dist": 2.35,
+        "avg_fare": 17.37
+      },
+      {
+        "id": 162,
+        "trips": 119652,
+        "avg_dist": 2.33,
+        "avg_fare": 16.22
+      },
+      {
+        "id": 230,
+        "trips": 117029,
+        "avg_dist": 3.09,
+        "avg_fare": 19.79
+      },
+      {
+        "id": 138,
+        "trips": 108929,
+        "avg_dist": 9.57,
+        "avg_fare": 45.07
+      },
+      {
+        "id": 142,
+        "trips": 105170,
+        "avg_dist": 2.25,
+        "avg_fare": 14.93
+      },
+      {
+        "id": 170,
+        "trips": 104812,
+        "avg_dist": 2.33,
+        "avg_fare": 16.25
+      }
+    ]
+  },
+  "2025-07": {
+    "kpis": {
+      "total_trips": 3541013,
+      "avg_daily": 114226,
+      "peak_hour": 18,
+      "avg_distance": 3.58,
+      "avg_fare": 20.38,
+      "avg_duration": 17.1
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3594
+      },
+      {
+        "hour": 1,
+        "avg": 2380
+      },
+      {
+        "hour": 2,
+        "avg": 1570
+      },
+      {
+        "hour": 3,
+        "avg": 1085
+      },
+      {
+        "hour": 4,
+        "avg": 868
+      },
+      {
+        "hour": 5,
+        "avg": 980
+      },
+      {
+        "hour": 6,
+        "avg": 1883
+      },
+      {
+        "hour": 7,
+        "avg": 3190
+      },
+      {
+        "hour": 8,
+        "avg": 4481
+      },
+      {
+        "hour": 9,
+        "avg": 4918
+      },
+      {
+        "hour": 10,
+        "avg": 5033
+      },
+      {
+        "hour": 11,
+        "avg": 5405
+      },
+      {
+        "hour": 12,
+        "avg": 6019
+      },
+      {
+        "hour": 13,
+        "avg": 6328
+      },
+      {
+        "hour": 14,
+        "avg": 6714
+      },
+      {
+        "hour": 15,
+        "avg": 6853
+      },
+      {
+        "hour": 16,
+        "avg": 6592
+      },
+      {
+        "hour": 17,
+        "avg": 7219
+      },
+      {
+        "hour": 18,
+        "avg": 7495
+      },
+      {
+        "hour": 19,
+        "avg": 6815
+      },
+      {
+        "hour": 20,
+        "avg": 6595
+      },
+      {
+        "hour": 21,
+        "avg": 6786
+      },
+      {
+        "hour": 22,
+        "avg": 6406
+      },
+      {
+        "hour": 23,
+        "avg": 5017
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 96460
+      },
+      {
+        "day": "Tue",
+        "avg": 135333
+      },
+      {
+        "day": "Wed",
+        "avg": 136781
+      },
+      {
+        "day": "Thu",
+        "avg": 134210
+      },
+      {
+        "day": "Fri",
+        "avg": 96974
+      },
+      {
+        "day": "Sat",
+        "avg": 104879
+      },
+      {
+        "day": "Sun",
+        "avg": 94946
+      }
+    ],
+    "zones": [
+      {
+        "id": 132,
+        "trips": 167784,
+        "avg_dist": 14.58,
+        "avg_fare": 62.54
+      },
+      {
+        "id": 161,
+        "trips": 161000,
+        "avg_dist": 2.29,
+        "avg_fare": 16.58
+      },
+      {
+        "id": 237,
+        "trips": 137774,
+        "avg_dist": 1.8,
+        "avg_fare": 13.15
+      },
+      {
+        "id": 186,
+        "trips": 121239,
+        "avg_dist": 2.36,
+        "avg_fare": 16.98
+      },
+      {
+        "id": 162,
+        "trips": 115344,
+        "avg_dist": 2.28,
+        "avg_fare": 15.86
+      },
+      {
+        "id": 230,
+        "trips": 113184,
+        "avg_dist": 2.97,
+        "avg_fare": 19.28
+      },
+      {
+        "id": 236,
+        "trips": 112774,
+        "avg_dist": 2.1,
+        "avg_fare": 14.06
+      },
+      {
+        "id": 170,
+        "trips": 98959,
+        "avg_dist": 2.29,
+        "avg_fare": 15.7
+      },
+      {
+        "id": 138,
+        "trips": 94692,
+        "avg_dist": 9.45,
+        "avg_fare": 44.08
+      },
+      {
+        "id": 68,
+        "trips": 92284,
+        "avg_dist": 2.59,
+        "avg_fare": 17.53
+      }
+    ]
+  },
+  "2025-08": {
+    "kpis": {
+      "total_trips": 3225178,
+      "avg_daily": 104038,
+      "peak_hour": 18,
+      "avg_distance": 3.77,
+      "avg_fare": 20.22,
+      "avg_duration": 17.2
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3368
+      },
+      {
+        "hour": 1,
+        "avg": 2290
+      },
+      {
+        "hour": 2,
+        "avg": 1553
+      },
+      {
+        "hour": 3,
+        "avg": 1075
+      },
+      {
+        "hour": 4,
+        "avg": 840
+      },
+      {
+        "hour": 5,
+        "avg": 873
+      },
+      {
+        "hour": 6,
+        "avg": 1691
+      },
+      {
+        "hour": 7,
+        "avg": 2739
+      },
+      {
+        "hour": 8,
+        "avg": 3857
+      },
+      {
+        "hour": 9,
+        "avg": 4401
+      },
+      {
+        "hour": 10,
+        "avg": 4674
+      },
+      {
+        "hour": 11,
+        "avg": 5030
+      },
+      {
+        "hour": 12,
+        "avg": 5553
+      },
+      {
+        "hour": 13,
+        "avg": 5824
+      },
+      {
+        "hour": 14,
+        "avg": 6184
+      },
+      {
+        "hour": 15,
+        "avg": 6223
+      },
+      {
+        "hour": 16,
+        "avg": 6134
+      },
+      {
+        "hour": 17,
+        "avg": 6653
+      },
+      {
+        "hour": 18,
+        "avg": 6951
+      },
+      {
+        "hour": 19,
+        "avg": 6095
+      },
+      {
+        "hour": 20,
+        "avg": 5893
+      },
+      {
+        "hour": 21,
+        "avg": 5938
+      },
+      {
+        "hour": 22,
+        "avg": 5602
+      },
+      {
+        "hour": 23,
+        "avg": 4597
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 81619
+      },
+      {
+        "day": "Tue",
+        "avg": 92030
+      },
+      {
+        "day": "Wed",
+        "avg": 103053
+      },
+      {
+        "day": "Thu",
+        "avg": 97308
+      },
+      {
+        "day": "Fri",
+        "avg": 117526
+      },
+      {
+        "day": "Sat",
+        "avg": 122972
+      },
+      {
+        "day": "Sun",
+        "avg": 113759
+      }
+    ],
+    "zones": [
+      {
+        "id": 132,
+        "trips": 170095,
+        "avg_dist": 14.48,
+        "avg_fare": 62.16
+      },
+      {
+        "id": 161,
+        "trips": 133908,
+        "avg_dist": 2.36,
+        "avg_fare": 15.97
+      },
+      {
+        "id": 237,
+        "trips": 118313,
+        "avg_dist": 1.9,
+        "avg_fare": 12.95
+      },
+      {
+        "id": 186,
+        "trips": 111310,
+        "avg_dist": 2.43,
+        "avg_fare": 16.87
+      },
+      {
+        "id": 162,
+        "trips": 100554,
+        "avg_dist": 2.33,
+        "avg_fare": 15.32
+      },
+      {
+        "id": 230,
+        "trips": 98713,
+        "avg_dist": 3.11,
+        "avg_fare": 18.97
+      },
+      {
+        "id": 236,
+        "trips": 95296,
+        "avg_dist": 2.19,
+        "avg_fare": 13.73
+      },
+      {
+        "id": 138,
+        "trips": 94402,
+        "avg_dist": 9.42,
+        "avg_fare": 44.22
+      },
+      {
+        "id": 170,
+        "trips": 89627,
+        "avg_dist": 2.38,
+        "avg_fare": 15.42
+      },
+      {
+        "id": 68,
+        "trips": 81908,
+        "avg_dist": 2.67,
+        "avg_fare": 17.1
+      }
+    ]
+  },
+  "2025-09": {
+    "kpis": {
+      "total_trips": 3885282,
+      "avg_daily": 129509,
+      "peak_hour": 18,
+      "avg_distance": 3.58,
+      "avg_fare": 20.98,
+      "avg_duration": 18.5
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 4182
+      },
+      {
+        "hour": 1,
+        "avg": 2691
+      },
+      {
+        "hour": 2,
+        "avg": 1814
+      },
+      {
+        "hour": 3,
+        "avg": 1202
+      },
+      {
+        "hour": 4,
+        "avg": 936
+      },
+      {
+        "hour": 5,
+        "avg": 1039
+      },
+      {
+        "hour": 6,
+        "avg": 2126
+      },
+      {
+        "hour": 7,
+        "avg": 3985
+      },
+      {
+        "hour": 8,
+        "avg": 5153
+      },
+      {
+        "hour": 9,
+        "avg": 5428
+      },
+      {
+        "hour": 10,
+        "avg": 5633
+      },
+      {
+        "hour": 11,
+        "avg": 6047
+      },
+      {
+        "hour": 12,
+        "avg": 6543
+      },
+      {
+        "hour": 13,
+        "avg": 6725
+      },
+      {
+        "hour": 14,
+        "avg": 7359
+      },
+      {
+        "hour": 15,
+        "avg": 7642
+      },
+      {
+        "hour": 16,
+        "avg": 7366
+      },
+      {
+        "hour": 17,
+        "avg": 8219
+      },
+      {
+        "hour": 18,
+        "avg": 8558
+      },
+      {
+        "hour": 19,
+        "avg": 8057
+      },
+      {
+        "hour": 20,
+        "avg": 7964
+      },
+      {
+        "hour": 21,
+        "avg": 7849
+      },
+      {
+        "hour": 22,
+        "avg": 7271
+      },
+      {
+        "hour": 23,
+        "avg": 5720
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 127379
+      },
+      {
+        "day": "Tue",
+        "avg": 141080
+      },
+      {
+        "day": "Wed",
+        "avg": 121899
+      },
+      {
+        "day": "Thu",
+        "avg": 131651
+      },
+      {
+        "day": "Fri",
+        "avg": 130059
+      },
+      {
+        "day": "Sat",
+        "avg": 136555
+      },
+      {
+        "day": "Sun",
+        "avg": 117942
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 175621,
+        "avg_dist": 1.84,
+        "avg_fare": 13.9
+      },
+      {
+        "id": 132,
+        "trips": 169412,
+        "avg_dist": 14.8,
+        "avg_fare": 65.69
+      },
+      {
+        "id": 161,
+        "trips": 155129,
+        "avg_dist": 2.42,
+        "avg_fare": 17.6
+      },
+      {
+        "id": 236,
+        "trips": 150912,
+        "avg_dist": 2.05,
+        "avg_fare": 14.33
+      },
+      {
+        "id": 186,
+        "trips": 127205,
+        "avg_dist": 2.38,
+        "avg_fare": 17.93
+      },
+      {
+        "id": 162,
+        "trips": 119708,
+        "avg_dist": 2.33,
+        "avg_fare": 16.64
+      },
+      {
+        "id": 230,
+        "trips": 110953,
+        "avg_dist": 3.1,
+        "avg_fare": 20.2
+      },
+      {
+        "id": 138,
+        "trips": 104887,
+        "avg_dist": 9.51,
+        "avg_fare": 46.42
+      },
+      {
+        "id": 170,
+        "trips": 103302,
+        "avg_dist": 2.38,
+        "avg_fare": 16.63
+      },
+      {
+        "id": 234,
+        "trips": 103268,
+        "avg_dist": 2.2,
+        "avg_fare": 15.95
+      }
+    ]
+  },
+  "2025-10": {
+    "kpis": {
+      "total_trips": 3991420,
+      "avg_daily": 128755,
+      "peak_hour": 18,
+      "avg_distance": 3.53,
+      "avg_fare": 20.25,
+      "avg_duration": 18.6
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3662
+      },
+      {
+        "hour": 1,
+        "avg": 2353
+      },
+      {
+        "hour": 2,
+        "avg": 1550
+      },
+      {
+        "hour": 3,
+        "avg": 1037
+      },
+      {
+        "hour": 4,
+        "avg": 841
+      },
+      {
+        "hour": 5,
+        "avg": 985
+      },
+      {
+        "hour": 6,
+        "avg": 2077
+      },
+      {
+        "hour": 7,
+        "avg": 4008
+      },
+      {
+        "hour": 8,
+        "avg": 5271
+      },
+      {
+        "hour": 9,
+        "avg": 5635
+      },
+      {
+        "hour": 10,
+        "avg": 5857
+      },
+      {
+        "hour": 11,
+        "avg": 6209
+      },
+      {
+        "hour": 12,
+        "avg": 6592
+      },
+      {
+        "hour": 13,
+        "avg": 6855
+      },
+      {
+        "hour": 14,
+        "avg": 7362
+      },
+      {
+        "hour": 15,
+        "avg": 7604
+      },
+      {
+        "hour": 16,
+        "avg": 7536
+      },
+      {
+        "hour": 17,
+        "avg": 8415
+      },
+      {
+        "hour": 18,
+        "avg": 8765
+      },
+      {
+        "hour": 19,
+        "avg": 8047
+      },
+      {
+        "hour": 20,
+        "avg": 7635
+      },
+      {
+        "hour": 21,
+        "avg": 7761
+      },
+      {
+        "hour": 22,
+        "avg": 7170
+      },
+      {
+        "hour": 23,
+        "avg": 5529
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 97580
+      },
+      {
+        "day": "Tue",
+        "avg": 111773
+      },
+      {
+        "day": "Wed",
+        "avg": 148443
+      },
+      {
+        "day": "Thu",
+        "avg": 156328
+      },
+      {
+        "day": "Fri",
+        "avg": 155099
+      },
+      {
+        "day": "Sat",
+        "avg": 123858
+      },
+      {
+        "day": "Sun",
+        "avg": 108207
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 192013,
+        "avg_dist": 1.8,
+        "avg_fare": 13.73
+      },
+      {
+        "id": 161,
+        "trips": 178183,
+        "avg_dist": 2.38,
+        "avg_fare": 17.23
+      },
+      {
+        "id": 132,
+        "trips": 175526,
+        "avg_dist": 14.81,
+        "avg_fare": 63.88
+      },
+      {
+        "id": 236,
+        "trips": 166213,
+        "avg_dist": 2.0,
+        "avg_fare": 14.05
+      },
+      {
+        "id": 162,
+        "trips": 128300,
+        "avg_dist": 2.34,
+        "avg_fare": 16.66
+      },
+      {
+        "id": 186,
+        "trips": 125538,
+        "avg_dist": 2.34,
+        "avg_fare": 17.76
+      },
+      {
+        "id": 142,
+        "trips": 121995,
+        "avg_dist": 2.24,
+        "avg_fare": 14.86
+      },
+      {
+        "id": 230,
+        "trips": 120370,
+        "avg_dist": 3.12,
+        "avg_fare": 19.93
+      },
+      {
+        "id": 138,
+        "trips": 116340,
+        "avg_dist": 9.49,
+        "avg_fare": 46.16
+      },
+      {
+        "id": 163,
+        "trips": 107088,
+        "avg_dist": 2.42,
+        "avg_fare": 17.05
+      }
+    ]
+  },
+  "2025-11": {
+    "kpis": {
+      "total_trips": 3689119,
+      "avg_daily": 122971,
+      "peak_hour": 18,
+      "avg_distance": 3.47,
+      "avg_fare": 19.52,
+      "avg_duration": 18.3
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3624
+      },
+      {
+        "hour": 1,
+        "avg": 2535
+      },
+      {
+        "hour": 2,
+        "avg": 1611
+      },
+      {
+        "hour": 3,
+        "avg": 1155
+      },
+      {
+        "hour": 4,
+        "avg": 1008
+      },
+      {
+        "hour": 5,
+        "avg": 1001
+      },
+      {
+        "hour": 6,
+        "avg": 1918
+      },
+      {
+        "hour": 7,
+        "avg": 3550
+      },
+      {
+        "hour": 8,
+        "avg": 4648
+      },
+      {
+        "hour": 9,
+        "avg": 5150
+      },
+      {
+        "hour": 10,
+        "avg": 5627
+      },
+      {
+        "hour": 11,
+        "avg": 6096
+      },
+      {
+        "hour": 12,
+        "avg": 6631
+      },
+      {
+        "hour": 13,
+        "avg": 6934
+      },
+      {
+        "hour": 14,
+        "avg": 7382
+      },
+      {
+        "hour": 15,
+        "avg": 7746
+      },
+      {
+        "hour": 16,
+        "avg": 7574
+      },
+      {
+        "hour": 17,
+        "avg": 8054
+      },
+      {
+        "hour": 18,
+        "avg": 8202
+      },
+      {
+        "hour": 19,
+        "avg": 7364
+      },
+      {
+        "hour": 20,
+        "avg": 6950
+      },
+      {
+        "hour": 21,
+        "avg": 7028
+      },
+      {
+        "hour": 22,
+        "avg": 6366
+      },
+      {
+        "hour": 23,
+        "avg": 4815
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 106222
+      },
+      {
+        "day": "Tue",
+        "avg": 114770
+      },
+      {
+        "day": "Wed",
+        "avg": 117173
+      },
+      {
+        "day": "Thu",
+        "avg": 116604
+      },
+      {
+        "day": "Fri",
+        "avg": 113773
+      },
+      {
+        "day": "Sat",
+        "avg": 152984
+      },
+      {
+        "day": "Sun",
+        "avg": 139268
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 181303,
+        "avg_dist": 1.79,
+        "avg_fare": 13.53
+      },
+      {
+        "id": 161,
+        "trips": 169382,
+        "avg_dist": 2.32,
+        "avg_fare": 16.86
+      },
+      {
+        "id": 236,
+        "trips": 155270,
+        "avg_dist": 1.98,
+        "avg_fare": 13.69
+      },
+      {
+        "id": 132,
+        "trips": 153132,
+        "avg_dist": 14.67,
+        "avg_fare": 63.17
+      },
+      {
+        "id": 186,
+        "trips": 120640,
+        "avg_dist": 2.34,
+        "avg_fare": 17.88
+      },
+      {
+        "id": 162,
+        "trips": 119159,
+        "avg_dist": 2.3,
+        "avg_fare": 16.33
+      },
+      {
+        "id": 230,
+        "trips": 114353,
+        "avg_dist": 3.03,
+        "avg_fare": 19.56
+      },
+      {
+        "id": 142,
+        "trips": 112598,
+        "avg_dist": 2.21,
+        "avg_fare": 14.63
+      },
+      {
+        "id": 138,
+        "trips": 102446,
+        "avg_dist": 9.5,
+        "avg_fare": 45.67
+      },
+      {
+        "id": 163,
+        "trips": 99899,
+        "avg_dist": 2.37,
+        "avg_fare": 16.68
+      }
+    ]
+  },
+  "2025-12": {
+    "kpis": {
+      "total_trips": 46302,
+      "avg_daily": 1494,
+      "peak_hour": 17,
+      "avg_distance": 3.16,
+      "avg_fare": 16.74,
+      "avg_duration": 16.6
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 23
+      },
+      {
+        "hour": 1,
+        "avg": 14
+      },
+      {
+        "hour": 2,
+        "avg": 9
+      },
+      {
+        "hour": 3,
+        "avg": 8
+      },
+      {
+        "hour": 4,
+        "avg": 8
+      },
+      {
+        "hour": 5,
+        "avg": 9
+      },
+      {
+        "hour": 6,
+        "avg": 31
+      },
+      {
+        "hour": 7,
+        "avg": 63
+      },
+      {
+        "hour": 8,
+        "avg": 75
+      },
+      {
+        "hour": 9,
+        "avg": 78
+      },
+      {
+        "hour": 10,
+        "avg": 83
+      },
+      {
+        "hour": 11,
+        "avg": 84
+      },
+      {
+        "hour": 12,
+        "avg": 87
+      },
+      {
+        "hour": 13,
+        "avg": 94
+      },
+      {
+        "hour": 14,
+        "avg": 97
+      },
+      {
+        "hour": 15,
+        "avg": 104
+      },
+      {
+        "hour": 16,
+        "avg": 109
+      },
+      {
+        "hour": 17,
+        "avg": 119
+      },
+      {
+        "hour": 18,
+        "avg": 112
+      },
+      {
+        "hour": 19,
+        "avg": 88
+      },
+      {
+        "hour": 20,
+        "avg": 65
+      },
+      {
+        "hour": 21,
+        "avg": 53
+      },
+      {
+        "hour": 22,
+        "avg": 45
+      },
+      {
+        "hour": 23,
+        "avg": 37
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 1781
+      },
+      {
+        "day": "Tue",
+        "avg": 1799
+      },
+      {
+        "day": "Wed",
+        "avg": 1815
+      },
+      {
+        "day": "Thu",
+        "avg": 1484
+      },
+      {
+        "day": "Fri",
+        "avg": 1470
+      },
+      {
+        "day": "Sat",
+        "avg": 1098
+      },
+      {
+        "day": "Sun",
+        "avg": 1007
+      }
+    ],
+    "zones": [
+      {
+        "id": 74,
+        "trips": 12039,
+        "avg_dist": 2.34,
+        "avg_fare": 15.01
+      },
+      {
+        "id": 75,
+        "trips": 6325,
+        "avg_dist": 2.28,
+        "avg_fare": 14.35
+      },
+      {
+        "id": 95,
+        "trips": 2278,
+        "avg_dist": 2.59,
+        "avg_fare": 15.56
+      },
+      {
+        "id": 166,
+        "trips": 2109,
+        "avg_dist": 2.59,
+        "avg_fare": 15.99
+      },
+      {
+        "id": 41,
+        "trips": 1956,
+        "avg_dist": 2.49,
+        "avg_fare": 14.62
+      },
+      {
+        "id": 43,
+        "trips": 1863,
+        "avg_dist": 2.29,
+        "avg_fare": 15.51
+      },
+      {
+        "id": 97,
+        "trips": 1798,
+        "avg_dist": 2.52,
+        "avg_fare": 18.1
+      },
+      {
+        "id": 82,
+        "trips": 1703,
+        "avg_dist": 3.06,
+        "avg_fare": 17.84
+      },
+      {
+        "id": 130,
+        "trips": 1425,
+        "avg_dist": 4.7,
+        "avg_fare": 25.18
+      },
+      {
+        "id": 65,
+        "trips": 1320,
+        "avg_dist": 2.97,
+        "avg_fare": 20.31
+      }
+    ]
+  },
+  "2026-01": {
+    "kpis": {
+      "total_trips": 3555721,
+      "avg_daily": 114701,
+      "peak_hour": 18,
+      "avg_distance": 3.45,
+      "avg_fare": 21.02,
+      "avg_duration": 17.1
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3516
+      },
+      {
+        "hour": 1,
+        "avg": 2440
+      },
+      {
+        "hour": 2,
+        "avg": 1692
+      },
+      {
+        "hour": 3,
+        "avg": 1209
+      },
+      {
+        "hour": 4,
+        "avg": 895
+      },
+      {
+        "hour": 5,
+        "avg": 1033
+      },
+      {
+        "hour": 6,
+        "avg": 2017
+      },
+      {
+        "hour": 7,
+        "avg": 3610
+      },
+      {
+        "hour": 8,
+        "avg": 4708
+      },
+      {
+        "hour": 9,
+        "avg": 4968
+      },
+      {
+        "hour": 10,
+        "avg": 5099
+      },
+      {
+        "hour": 11,
+        "avg": 5415
+      },
+      {
+        "hour": 12,
+        "avg": 5906
+      },
+      {
+        "hour": 13,
+        "avg": 6158
+      },
+      {
+        "hour": 14,
+        "avg": 6524
+      },
+      {
+        "hour": 15,
+        "avg": 6974
+      },
+      {
+        "hour": 16,
+        "avg": 6657
+      },
+      {
+        "hour": 17,
+        "avg": 7232
+      },
+      {
+        "hour": 18,
+        "avg": 7501
+      },
+      {
+        "hour": 19,
+        "avg": 6810
+      },
+      {
+        "hour": 20,
+        "avg": 6711
+      },
+      {
+        "hour": 21,
+        "avg": 6690
+      },
+      {
+        "hour": 22,
+        "avg": 6136
+      },
+      {
+        "hour": 23,
+        "avg": 4800
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 81013
+      },
+      {
+        "day": "Tue",
+        "avg": 103566
+      },
+      {
+        "day": "Wed",
+        "avg": 108356
+      },
+      {
+        "day": "Thu",
+        "avg": 140329
+      },
+      {
+        "day": "Fri",
+        "avg": 139436
+      },
+      {
+        "day": "Sat",
+        "avg": 148060
+      },
+      {
+        "day": "Sun",
+        "avg": 82145
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 152530,
+        "avg_dist": 1.78,
+        "avg_fare": 13.76
+      },
+      {
+        "id": 236,
+        "trips": 145981,
+        "avg_dist": 1.98,
+        "avg_fare": 14.77
+      },
+      {
+        "id": 132,
+        "trips": 141513,
+        "avg_dist": 14.45,
+        "avg_fare": 61.51
+      },
+      {
+        "id": 161,
+        "trips": 139246,
+        "avg_dist": 2.26,
+        "avg_fare": 17.6
+      },
+      {
+        "id": 186,
+        "trips": 105653,
+        "avg_dist": 2.27,
+        "avg_fare": 16.96
+      },
+      {
+        "id": 142,
+        "trips": 104683,
+        "avg_dist": 2.18,
+        "avg_fare": 15.27
+      },
+      {
+        "id": 162,
+        "trips": 103682,
+        "avg_dist": 2.23,
+        "avg_fare": 16.66
+      },
+      {
+        "id": 230,
+        "trips": 100861,
+        "avg_dist": 2.84,
+        "avg_fare": 19.99
+      },
+      {
+        "id": 79,
+        "trips": 96399,
+        "avg_dist": 2.52,
+        "avg_fare": 17.56
+      },
+      {
+        "id": 239,
+        "trips": 92427,
+        "avg_dist": 2.23,
+        "avg_fare": 15.67
+      }
+    ]
+  },
+  "2026-02": {
+    "kpis": {
+      "total_trips": 3246633,
+      "avg_daily": 115951,
+      "peak_hour": 18,
+      "avg_distance": 3.39,
+      "avg_fare": 21.73,
+      "avg_duration": 17.8
+    },
+    "hourly": [
+      {
+        "hour": 0,
+        "avg": 3505
+      },
+      {
+        "hour": 1,
+        "avg": 2339
+      },
+      {
+        "hour": 2,
+        "avg": 1591
+      },
+      {
+        "hour": 3,
+        "avg": 1149
+      },
+      {
+        "hour": 4,
+        "avg": 979
+      },
+      {
+        "hour": 5,
+        "avg": 1100
+      },
+      {
+        "hour": 6,
+        "avg": 2164
+      },
+      {
+        "hour": 7,
+        "avg": 3732
+      },
+      {
+        "hour": 8,
+        "avg": 4855
+      },
+      {
+        "hour": 9,
+        "avg": 4933
+      },
+      {
+        "hour": 10,
+        "avg": 4927
+      },
+      {
+        "hour": 11,
+        "avg": 5276
+      },
+      {
+        "hour": 12,
+        "avg": 5656
+      },
+      {
+        "hour": 13,
+        "avg": 5934
+      },
+      {
+        "hour": 14,
+        "avg": 6307
+      },
+      {
+        "hour": 15,
+        "avg": 6678
+      },
+      {
+        "hour": 16,
+        "avg": 6494
+      },
+      {
+        "hour": 17,
+        "avg": 7424
+      },
+      {
+        "hour": 18,
+        "avg": 7967
+      },
+      {
+        "hour": 19,
+        "avg": 7202
+      },
+      {
+        "hour": 20,
+        "avg": 7084
+      },
+      {
+        "hour": 21,
+        "avg": 7196
+      },
+      {
+        "hour": 22,
+        "avg": 6499
+      },
+      {
+        "hour": 23,
+        "avg": 4958
+      }
+    ],
+    "weekly": [
+      {
+        "day": "Mon",
+        "avg": 79712
+      },
+      {
+        "day": "Tue",
+        "avg": 107816
+      },
+      {
+        "day": "Wed",
+        "avg": 119740
+      },
+      {
+        "day": "Thu",
+        "avg": 127866
+      },
+      {
+        "day": "Fri",
+        "avg": 128335
+      },
+      {
+        "day": "Sat",
+        "avg": 137580
+      },
+      {
+        "day": "Sun",
+        "avg": 110610
+      }
+    ],
+    "zones": [
+      {
+        "id": 237,
+        "trips": 138294,
+        "avg_dist": 1.8,
+        "avg_fare": 14.32
+      },
+      {
+        "id": 236,
+        "trips": 131686,
+        "avg_dist": 1.98,
+        "avg_fare": 15.15
+      },
+      {
+        "id": 161,
+        "trips": 128663,
+        "avg_dist": 2.27,
+        "avg_fare": 18.54
+      },
+      {
+        "id": 132,
+        "trips": 116981,
+        "avg_dist": 14.44,
+        "avg_fare": 61.87
+      },
+      {
+        "id": 162,
+        "trips": 94738,
+        "avg_dist": 2.22,
+        "avg_fare": 17.37
+      },
+      {
+        "id": 186,
+        "trips": 94274,
+        "avg_dist": 2.27,
+        "avg_fare": 17.99
+      },
+      {
+        "id": 79,
+        "trips": 90244,
+        "avg_dist": 2.48,
+        "avg_fare": 18.98
+      },
+      {
+        "id": 142,
+        "trips": 89937,
+        "avg_dist": 2.19,
+        "avg_fare": 15.78
+      },
+      {
+        "id": 230,
+        "trips": 86605,
+        "avg_dist": 2.78,
+        "avg_fare": 20.74
+      },
+      {
+        "id": 234,
+        "trips": 84900,
+        "avg_dist": 2.15,
+        "avg_fare": 17.56
+      }
+    ]
+  }
+}
