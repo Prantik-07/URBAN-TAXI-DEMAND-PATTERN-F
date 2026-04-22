@@ -409,7 +409,8 @@ function PredictionView() {
     setSubmitted(true);
 
     try {
-      const res = await fetch('http://localhost:4000/api/predict', {
+      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+      const res = await fetch(`${API_URL}/api/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -685,7 +686,7 @@ function ZoneRebalancerView() {
     try {
       const predictions = await Promise.all(
         TOP_ZONES.map(z =>
-          fetch('http://localhost:4000/api/predict', {
+          fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:4000'}/api/predict`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ taxi_type: 'yellow', zone_id: z.id, hour, dow, month }),
