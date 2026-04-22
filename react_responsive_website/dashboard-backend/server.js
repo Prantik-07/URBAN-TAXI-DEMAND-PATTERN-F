@@ -34,22 +34,33 @@ app.post('/api/predict', (req, res) => {
     String(month),
   ];
 
-  execFile('python3', args, { maxBuffer: 1024 * 1024 }, (err, stdout, stderr) => {
-    if (err) {
-      console.error('Python error:', stderr);
-      return res.status(500).json({ error: 'Prediction script failed.', detail: stderr });
-    }
-
-    try {
-      const result = JSON.parse(stdout.trim());
-      if (result.error) {
-        return res.status(500).json(result);
+  // Try 'python3' first, then fallback to 'python'
+  const pythonCmd = process.platform === 'win32' ? 'python' : 'python3';
+  
+  const runPrediction = (cmd) => {
+    execFile(cmd, args, { maxBuffer: 1024 * 1024 }, (err, stdout, stderr) => {
+      if (err) {
+        // If python3 fails and we haven't tried 'python' yet, try it
+        if (cmd === 'python3') {
+          return runPrediction('python');
+        }
+        console.error(`Python error (${cmd}):`, stderr);
+        return res.status(500).json({ error: 'Prediction script failed.', detail: stderr });
       }
-      return res.json(result);
-    } catch (parseErr) {
-      return res.status(500).json({ error: 'Could not parse model output.', raw: stdout });
-    }
-  });
+
+      try {
+        const result = JSON.parse(stdout.trim());
+        if (result.error) {
+          return res.status(500).json(result);
+        }
+        return res.json(result);
+      } catch (parseErr) {
+        return res.status(500).json({ error: 'Could not parse model output.', raw: stdout });
+      }
+    });
+  };
+
+  runPrediction(pythonCmd);
 });
 
 // ── GET /api/health ──────────────────────────────────────────────────────────
