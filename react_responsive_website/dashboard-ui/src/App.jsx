@@ -684,15 +684,16 @@ function ZoneRebalancerView() {
     setLoading(true);
     setError(null);
     try {
-      const predictions = await Promise.all(
-        TOP_ZONES.map(z =>
-          fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:4000'}/api/predict`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ taxi_type: 'yellow', zone_id: z.id, hour, dow, month }),
-          }).then(r => r.json()).then(d => ({ ...z, demand: d.predicted_demand ?? 0, error: d.error }))
-        )
-      );
+      const predictions = [];
+      for (const z of TOP_ZONES) {
+        const r = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:4000'}/api/predict`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ taxi_type: 'yellow', zone_id: z.id, hour, dow, month }),
+        });
+        const d = await r.json();
+        predictions.push({ ...z, demand: d.predicted_demand ?? 0, error: d.error });
+      }
       const sorted = [...predictions].sort((a, b) => b.demand - a.demand);
       setResults(sorted);
     } catch (err) {
